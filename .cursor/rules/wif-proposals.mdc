@@ -1,0 +1,13 @@
+---
+description: WIF proposal workflow and client scoping
+alwaysApply: true
+---
+
+# WIF proposals
+
+Read `AGENTS.md` at repo root before editing.
+
+- Reference: `_shared/` playbooks + templates, `google/` completed proposal
+- Default write scope: active client folder only (currently `dell/` unless user names another)
+- After Rabia intake: update `01-brief/project.md` first, then specs, budget, deck
+- Do not mix raw intake notes into client-facing deck copy

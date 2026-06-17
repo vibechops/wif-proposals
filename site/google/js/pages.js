@@ -1,0 +1,340 @@
+/** Proposal page content from a4-pdf-outline.md */
+window.PROPOSAL_PAGES = [
+  {
+    id: 1,
+    title: "Cover",
+    template: "cover",
+    data: {
+      eyebrow: "Partnership Proposal",
+      subtitle: "A 7-city roadshow across India's top film institutes",
+      date: "2026",
+    },
+  },
+  {
+    id: 2,
+    title: "In one sentence",
+    template: "statement",
+    data: {
+      heading: "In one sentence",
+      lead: [
+        { t: "WIF India proposes a " },
+        { t: "Google + WIF roadshow", em: true },
+        { t: " across " },
+        { t: "7 cities", em: true },
+        { t: ", led by a " },
+        { t: "Google Flow expert", em: true },
+        { t: "." },
+      ],
+      cards: [
+        { no: "01", title: "The partnership", text: "Google and WIF India, together on the road." },
+        { no: "02", title: "The reach", text: "Seven cities, India's top film institutes." },
+        { no: "03", title: "The expertise", text: "A Google Flow expert leads every workshop and demo." },
+      ],
+      footer: "Google chooses one of two program levels: events only, or events plus Filmathon and awards.",
+    },
+  },
+  {
+    id: 3,
+    title: "Why this program",
+    template: "bullets",
+    data: {
+      heading: "Why this program",
+      items: [
+        "India's next generation of filmmakers is entering an industry where AI tools are becoming part of the creative stack, but hands-on access at film schools and creator communities is still limited.",
+        "Google is already investing in AI filmmaking education globally (Flow Sessions, Sundance Institute partnership). India needs the same activation layer: real workshops, real creators, real films, not just product demos.",
+        "A 7-city roadshow puts Google's Flow expert inside India's top film institutes and connects them to working professionals, exactly where new creative habits form.",
+      ],
+    },
+  },
+  {
+    id: 4,
+    title: "Why WIF India",
+    template: "sections",
+    data: {
+      heading: "Why WIF India",
+      sections: [
+        {
+          title: "Leadership",
+          items: [
+            "Founded by Guneet Monga Kapoor, Oscar-winning producer (The Elephant Whisperers)",
+            "Sister organization to WIF LA, a globally recognized advocacy body for women in film",
+            "Rabia Chopra, Director: leads program management, partnerships, and industry engagement on the ground",
+          ],
+        },
+        {
+          title: "Community and reach",
+          items: [
+            "3,500+ member national community across film, TV, and digital media",
+            "Free membership; spans students, emerging talent, and working professionals",
+            "The Collective Database: curated network of women and gender-diverse film professionals across India",
+          ],
+        },
+        {
+          title: "Why WIF fits this roadshow",
+          items: [
+            "Existing relationships with top film institutes across India",
+            "Track record hosting networking events, workshops, and masterclasses nationally",
+            "Credible bridge between Google's product story and India's film school + industry audience",
+          ],
+        },
+      ],
+    },
+  },
+  {
+    id: 5,
+    title: "Advisory Board",
+    template: "advisory",
+    data: {
+      heading: "Advisory Board",
+      intro:
+        "WIF India is guided by an exceptional Board of industry leaders, creators, and changemakers who bring vision, credibility, and deep expertise across film, media, digital, policy, and corporate sectors.",
+      members: [
+        { name: "Anupama Chopra", title: "Film Journalist", photo: "anupama-chopra" },
+        { name: "Aparna Purohit", title: "Producer, Aamir Khan Films", photo: "aparna-purohit" },
+        { name: "Ekta Kapoor", title: "Producer, Balaji Telefilms", photo: "ekta-kapoor" },
+        { name: "Faye D'Souza", title: "Journalist & News Anchor", photo: "faye-dsouza" },
+        {
+          name: "Gayatri Yadav",
+          title: "Group CMO & EVP Strategic Initiatives, Reliance",
+          photo: "gayatri-yadav",
+        },
+        { name: "Gauri Shinde", title: "Director & Screenwriter", photo: "gauri-shinde" },
+        {
+          name: "Guneet Monga Kapoor",
+          title: "Producer, Oscar Winner & Board Chair, WIF India",
+          photo: "guneet-monga-kapoor",
+        },
+        {
+          name: "Jyoti Deshpande",
+          title: "Producer & President, Media & Content Business, Reliance",
+          photo: "jyoti-deshpande",
+        },
+        { name: "Kanika Dhillon", title: "Screenwriter & Producer", photo: "kanika-dhillon" },
+      ],
+    },
+  },
+  {
+    id: 6,
+    title: "Advisory Board",
+    template: "advisory",
+    data: {
+      heading: "Advisory Board",
+      members: [
+        { name: "Karan Johar", title: "Director, Producer & Studio Head", photo: "karan-johar" },
+        { name: "Miriam Joseph", title: "Producer", photo: "miriam-joseph" },
+        { name: "Nikhil Advani", title: "Director & Producer", photo: "nikhil-advani" },
+        {
+          name: "Siddharth Roy Kapur",
+          title: "Producer & Former President, Producers Guild",
+          photo: "siddharth-roy-kapur",
+        },
+        { name: "Tahira Kashyap", title: "Filmmaker & Author", photo: "tahira-kashyap" },
+        { name: "Twinkle Khanna", title: "Author, Columnist & Producer", photo: "twinkle-khanna" },
+        { name: "Varun Grover", title: "Writer & Lyricist", photo: "varun-grover" },
+        { name: "Vani Tripathi", title: "Actor", photo: "vani-tripathi" },
+      ],
+    },
+  },
+  {
+    id: 7,
+    title: "Two options for Google",
+    template: "comparison",
+    data: {
+      heading: "Pick your program",
+      rows: [
+        ["7-city roadshow at India's top film colleges", true, true],
+        ["Google Flow expert-led workshop", true, true],
+        ["Students + professionals networking", true, true],
+        ["16-week program", true, true],
+        ["National short film call for submissions", false, true],
+        ["WIF script curation + filmmaker selection", false, true],
+        ["AI Filmathon (14-day production in Flow)", false, true],
+        ["Mumbai awards ceremony (Top 3)", false, true],
+        ["1-year free Google Flow subscription per winner", false, true],
+      ],
+      optionA: "College events across 7 cities. Stops after the roadshow.",
+      optionB: "Everything in A, plus call for submissions, Filmathon, and Mumbai awards.",
+    },
+  },
+  {
+    id: 8,
+    title: "Who does what",
+    template: "roles",
+    data: {
+      heading: "Who does what",
+      options: [
+        {
+          tag: "Option A",
+          items: [
+            { who: "Google", what: "Flow expert on the 7-city roadshow" },
+            { who: "WIF India", what: "Venues, event production, and audience" },
+          ],
+        },
+        {
+          tag: "Option B",
+          items: [
+            { who: "Google", what: "Flow expert on the 7-city roadshow" },
+            { who: "WIF India", what: "Venues, event production, and audience" },
+            { who: "WIF India", what: "National short film call for submissions: curation and filmmaker selection" },
+            { who: "WIF India", what: "Filmathon operations and Flow credits" },
+            { who: "Google", what: "Flow expert at Mumbai awards" },
+            { who: "WIF India", what: "Mumbai awards event" },
+          ],
+        },
+      ],
+    },
+  },
+  {
+    id: 9,
+    title: "Timeline, Option A",
+    template: "timeline",
+    data: {
+      heading: "Timeline",
+      optionTag: "Option A",
+      intro: "16 weeks · Roadshow across 7 cities, then wrap.",
+      phases: [
+        {
+          icon: "calendar",
+          label: "Prep",
+          range: "Weeks 1–4",
+          items: ["Confirm venues, align with Google expert", "Open registrations, lock production"],
+        },
+        {
+          icon: "route",
+          label: "Roadshow",
+          range: "Weeks 5–12",
+          cities: ["Mumbai", "Pune", "Kolkata", "Delhi", "Chennai", "Hyderabad", "Bangalore"],
+        },
+        {
+          icon: "flag",
+          label: "Wrap",
+          range: "Weeks 13–16",
+          items: ["Synthesize roadshow learnings", "Report and content package to Google"],
+        },
+      ],
+      weeks: [
+        { phase: "Prep", what: "Confirm venues, align with Google expert, lock production plan" },
+        { phase: "Prep", what: "Open registrations, finalize travel and event production" },
+        { phase: "Prep", what: "Confirm college partnerships and city schedules" },
+        { phase: "Prep", what: "Final production readiness, brief Google expert" },
+        { phase: "Roadshow", what: "Mumbai (Whistling Woods): Flow workshop, networking" },
+        { phase: "Roadshow", what: "Pune (FTII): Flow workshop, networking" },
+        { phase: "Roadshow", what: "Kolkata (SRFTII): Flow workshop, networking" },
+        { phase: "Roadshow", what: "Delhi (Ashoka): Flow workshop, networking" },
+        { phase: "Roadshow", what: "Chennai (Annapurna): Flow workshop, networking" },
+        { phase: "Roadshow", what: "Hyderabad (Ramoji): Flow workshop, networking" },
+        { phase: "Roadshow", what: "Bangalore (TBD): Flow workshop, networking; roadshow complete" },
+        { phase: "Roadshow", what: "Roadshow buffer + consolidation across all 7 events" },
+        { phase: "Wrap", what: "Synthesize roadshow learnings" },
+        { phase: "Wrap", what: "Edit and package content from events" },
+        { phase: "Wrap", what: "Report to Google" },
+        { phase: "Wrap", what: "Deliver final report and content to Google; program close" },
+      ],
+    },
+  },
+  {
+    id: 10,
+    title: "Timeline, Option B",
+    template: "timeline",
+    data: {
+      heading: "Timeline",
+      optionTag: "Option B",
+      intro: "16 weeks · Roadshow + call for submissions, Filmathon, and Mumbai awards.",
+      phases: [
+        {
+          icon: "calendar",
+          label: "Prep",
+          range: "Weeks 1–4",
+          items: ["Confirm venues, align with Google expert", "Registrations + call for submissions brief"],
+        },
+        {
+          icon: "route",
+          label: "Roadshow + call for submissions",
+          range: "Weeks 5–12",
+          cities: ["Mumbai", "Pune", "Kolkata", "Delhi", "Chennai", "Hyderabad", "Bangalore"],
+          note: "National call for submissions opens Week 5, closes Week 12",
+        },
+        {
+          icon: "film",
+          label: "Filmathon + awards",
+          range: "Weeks 13–16",
+          items: ["WIF and Google select filmmakers", "14-day AI Filmathon in Flow", "Mumbai awards · Top 3"],
+        },
+      ],
+      weeks: [
+        { phase: "Prep", what: "Confirm venues, align with Google expert, lock production plan" },
+        { phase: "Prep", what: "Open registrations; call for submissions brief ready" },
+        { phase: "Prep", what: "Confirm college partnerships and city schedules" },
+        { phase: "Prep", what: "Final production readiness, brief Google expert" },
+        { phase: "Roadshow", what: "Mumbai: event + national call for submissions opens" },
+        { phase: "Roadshow", what: "Pune: event; script submissions ongoing" },
+        { phase: "Roadshow", what: "Kolkata: event; script submissions ongoing" },
+        { phase: "Roadshow", what: "Delhi: event; script submissions ongoing" },
+        { phase: "Roadshow", what: "Chennai: event; script submissions ongoing" },
+        { phase: "Roadshow", what: "Hyderabad: event; script submissions ongoing" },
+        { phase: "Roadshow", what: "Bangalore: event; roadshow complete" },
+        { phase: "Roadshow", what: "Script submissions wrap; call for submissions closes" },
+        { phase: "Finale", what: "WIF and Google select filmmakers; AI Filmathon kickoff (days 1–7)" },
+        { phase: "Finale", what: "AI Filmathon continues (days 8–14); films submitted" },
+        { phase: "Finale", what: "Jury review and shortlisting" },
+        { phase: "Finale", what: "Mumbai awards (Top 3); program close" },
+      ],
+    },
+  },
+  {
+    id: 11,
+    title: "Budget",
+    template: "budget",
+    data: {
+      heading: "Budget",
+      label: "WIF India program fee",
+      tiers: [
+        { tag: "Option A", amount: "USD $100,000", plus: "+ production &amp; other expenses", desc: "Roadshow across 7 cities, then wrap." },
+        { tag: "Option B", amount: "USD $150,000", plus: "+ production &amp; other expenses", desc: "Roadshow + national call for submissions, Filmathon, and Mumbai awards." },
+      ],
+      lead: "A WIF India program fee per option, plus production and other expenses scoped to the option you choose. WIF plans, produces, and manages the 16-week partnership end to end.",
+      covers: [
+        "Event production across 7 cities: venues, logistics, and audience",
+        "On-ground program management, partnerships, and industry engagement",
+        "National short film call for submissions: curation and filmmaker coordination (Option B)",
+        "Filmathon operations and participant Flow access (Option B)",
+        "Mumbai awards ceremony (Option B)",
+      ],
+      note: "Google provides the Flow expert for workshops and the awards event. Top 3 winners each receive a 1-year free Google Flow subscription.",
+    },
+  },
+  {
+    id: 12,
+    title: "The ask",
+    template: "ask",
+    data: {
+      heading: "The ask",
+      lead: "At its core, this is a Google + WIF roadshow across 7 cities in India over 16 weeks.",
+      ask: [
+        "Pick Option A or Option B",
+        "Provide Google's Flow expert for the 7-city roadshow",
+        "Top 3 winners each receive a 1-year free Google Flow subscription",
+      ],
+    },
+  },
+  {
+    id: 13,
+    title: "The vision",
+    template: "closing",
+    data: {
+      eyebrow: "The opportunity",
+      brand: "Google AI × WIF India",
+      lead: [
+        { t: "Empowering the storytellers who will define the " },
+        { t: "next decade of global cinema", em: true },
+        { t: "." },
+      ],
+      stats: [
+        { value: "7", label: "cities" },
+        { value: "16", label: "weeks" },
+        { value: "3,500+", label: "creators in reach" },
+      ],
+      close: "Let's put Flow in<br>their hands first.",
+    },
+  },
+];

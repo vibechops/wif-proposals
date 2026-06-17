@@ -1,0 +1,19 @@
+# Large exports: ignore only inside deliverables folders
+**/06-deliverables/*.pdf
+**/06-deliverables/*.pptx
+**/06-deliverables/*.docx
+
+# Env and deploy
+.env
+.env.local
+.vercel/
+
+# Nested git (legacy google-wif repo; now part of monorepo)
+google/.git/
+
+# Google working extracts
+google/.extract/
+
+# OS
+.DS_Store
+**/.DS_Store

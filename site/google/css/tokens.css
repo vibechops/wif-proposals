@@ -1,0 +1,75 @@
+:root {
+  /* ===== Palette: warm editorial film publication ===== */
+  /* Paper + ink */
+  --paper: #f3ecdf;          /* warm ivory page */
+  --paper-2: #efe7d8;        /* slightly deeper panel */
+  --ink: #1f1a24;            /* near-black, warm */
+  --ink-soft: #4a4255;       /* secondary text */
+  --ink-faint: #8a8194;      /* captions / meta */
+
+  /* Brand aubergine */
+  --plum: #3a2858;           /* primary brand purple */
+  --plum-deep: #20143a;      /* cover ground */
+  --plum-mid: #2c1d4d;
+  --plum-tint: rgba(58, 40, 88, 0.08);
+  --plum-tint-2: rgba(58, 40, 88, 0.14);
+
+  /* Ember accent (single accent, used sparingly) */
+  --ember: #c6543c;
+  --ember-soft: #d2755f;
+  --ember-tint: rgba(198, 84, 60, 0.10);
+
+  /* On dark */
+  --on-dark: #f6efe2;
+  --on-dark-soft: rgba(246, 239, 226, 0.66);
+  --on-dark-faint: rgba(246, 239, 226, 0.34);
+  --hairline-dark: rgba(246, 239, 226, 0.22);
+
+  /* Hairlines on paper */
+  --hairline: rgba(31, 26, 36, 0.14);
+  --hairline-strong: rgba(31, 26, 36, 0.30);
+
+  /* ===== Type ===== */
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-body: "Inter", system-ui, -apple-system, sans-serif;
+
+  --t-folio: 13px;
+  --t-kicker: 10.5px;
+  --t-caption: 12px;
+  --t-label: 12px;
+  --t-body: 15.5px;
+  --t-lead: 21px;
+  --t-h2: 22px;
+  --t-h1: 56px;
+  --t-display: 94px;
+
+  --w-light: 300;
+  --w-regular: 400;
+  --w-medium: 500;
+  --w-semibold: 600;
+  --w-bold: 700;
+
+  --lh-solid: 0.98;
+  --lh-tight: 1.06;
+  --lh-snug: 1.28;
+  --lh-body: 1.62;
+
+  --tr-kicker: 0.22em;
+  --tr-label: 0.12em;
+  --tr-tight: -0.02em;
+  --tr-display: -0.03em;
+
+  /* ===== Space scale ===== */
+  --pad-x: 84px;
+  --pad-top: 64px;
+  --pad-bottom: 56px;
+
+  /* ===== Chrome (viewer shell) ===== */
+  --chrome-bg: #15101d;
+  --chrome-panel: #1b1527;
+  --chrome-text: #efe7d8;
+  --chrome-muted: #9a8fb0;
+  --chrome-line: rgba(246, 239, 226, 0.10);
+
+  --page-shadow: 0 40px 100px -20px rgba(15, 8, 30, 0.55);
+}

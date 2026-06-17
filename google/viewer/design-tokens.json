@@ -1,0 +1,70 @@
+{
+  "source": "WIF x Adobe_Proposal.pdf (Canva export, A4, 22 pages)",
+  "extractedFrom": "PyMuPDF font/color analysis + page renders",
+  "format": {
+    "pageSize": "A4",
+    "widthPt": 595.5,
+    "heightPt": 842.25,
+    "aspectRatio": "1:1.414"
+  },
+  "colors": {
+    "coral": {
+      "primary": "#d86363",
+      "bright": "#ff5757",
+      "usage": "Body text, headlines on cream pages"
+    },
+    "orange": {
+      "accent": "#f79f5b",
+      "gold": "#f1ac4b",
+      "usage": "Italic emphasis, highlights"
+    },
+    "purple": {
+      "primary": "#78619f",
+      "deep": "#3f1f7d",
+      "usage": "Cover background, secondary headings"
+    },
+    "neutral": {
+      "cream": "#f7f5ed",
+      "creamAlt": "#f8f5ee",
+      "white": "#ffffff",
+      "black": "#000000",
+      "divider": "#e8e0d4"
+    }
+  },
+  "typography": {
+    "original": {
+      "display": "HKSentiments (Black, Medium, Regular, MediumItalic)",
+      "body": "Aileron (Regular, Bold, Italic)",
+      "note": "Canva proprietary fonts; not on Google Fonts"
+    },
+    "webFallback": {
+      "display": "Syne",
+      "body": "DM Sans",
+      "source": "https://fonts.google.com"
+    },
+    "scale": {
+      "hero": "clamp(3rem, 8vw, 5.5rem)",
+      "h1": "clamp(2rem, 5vw, 3rem)",
+      "h2": "clamp(1.25rem, 3vw, 1.75rem)",
+      "h3": "1.125rem",
+      "body": "1rem",
+      "small": "0.75rem",
+      "lineHeight": {
+        "tight": 1.1,
+        "body": 1.55,
+        "loose": 1.7
+      }
+    }
+  },
+  "graphics": {
+    "coverPattern": "Staggered horizontal line columns (coral on deep purple), top ~38% of page",
+    "dividers": "1px solid coral or warm gray between sections",
+    "logo": "Block WIF wordmark, bottom-left on cover",
+    "footer": "Small caps label left + WIF INDIA x GOOGLE FLOW right"
+  },
+  "layout": {
+    "pagePadding": "8% 9%",
+    "contentMaxWidth": "100%",
+    "gridGap": "2rem"
+  }
+}
