@@ -20,15 +20,15 @@ Research backing for WIF India x Dell sponsorship fees. FX: $1 ≈ ₹85.
 
 | Program | Source | Internal cost (INR) | USD at ₹85/$ |
 |---|---|---:|---:|
-| Screenwriters Lab | Budget PDF | ₹1.175 Cr | ~$138K |
+| Screenwriters Lab (3-day) | Budget PDF | ₹1.10 Cr | ~$130K |
 | Exhibition (draft) | event-spec.md | ₹75 L | ~$88K |
 | Internship (annual) | Kamla Mills doc | ₹2.5 Cr | ~$294K |
 
 Recommended asks add margin for WIF delivery risk, tax, and program management overhead:
 
-- Tier 1: ~8% above cost ($150K vs $138K cost)
-- Tier 2: ~17% above combined cost ($265K vs $227K cost)
-- Tier 3: ~14% above combined cost ($595K vs $521K cost)
+- Tier 1: ~15% above cost ($150K vs $130K cost)
+- Tier 2: ~21% above combined cost ($265K vs $218K cost)
+- Tier 3: ~16% above combined cost ($595K vs $513K cost)
 
 ---
 
@@ -70,7 +70,7 @@ This mirrors the Google proposal's Option A / B split, adapted for three paralle
 | Comparable | Scale | Fee range |
 |---|---|---|
 | Google x WIF (Flow program) | 7-city roadshow + optional Filmathon | $100K-$150K |
-| WIF Screenwriters Lab (govt/foundation ask) | 6 writers, residential | ₹1.175 Cr (~$138K) |
+| WIF Screenwriters Lab (govt/foundation ask) | 6 writers, residential | ₹1.10 Cr (~$130K) |
 | WIF Internship (MIB/Kamla Mills ask) | 35 interns/year | ₹2.5 Cr/yr (~$294K) |
 | Corporate CSR film programs (India) | Single-city activation | $50K-$100K |
 
@@ -90,6 +90,6 @@ Dell Tier 2 at $265K is competitive for a two-program national partnership with 
 ## Flags for internal review
 
 - Exhibition budget is draft; confirm with Rabia before sending to EMG
-- Tier 1 margin is thin (~8%); acceptable as relationship entry, not sustainable alone
+- Tier 1 margin is modest (~13%, improved by the 3-day lab); acceptable as relationship entry, not sustainable alone
 - Internship multi-year pricing ($445K/yr for Years 2-3) needs Rabia sign-off
 - Guneet not yet looped in on Dell pricing

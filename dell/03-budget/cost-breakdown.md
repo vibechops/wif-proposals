@@ -12,12 +12,12 @@ Internal working doc. Built bottoms-up per program. FX: **$1 ≈ ₹85**. Tax mo
 |---|---:|---:|---:|
 | Recommended ask (USD) | $150,000 | $265,000 | $595,000 |
 | Fee in INR | ₹127.5L | ₹225.3L | ₹505.8L |
-| **Delivery cost (Base, INR)** | **₹117.5L** | **₹192.8L** | **₹442.8L** |
-| Gross profit | ₹10.0L | ₹32.5L | ₹63.0L |
-| Gross margin | ~7.8% | ~14.4% | ~12.5% |
-| **Net profit after tax (~25.17%)** | **~₹7.5L (~$8.8K)** | **~₹24.3L (~$28.6K)** | **~₹47.1L (~$55.4K)** |
+| **Delivery cost (Base, INR)** | **₹110.4L** | **₹185.7L** | **₹436.0L** |
+| Gross profit | ₹17.1L | ₹39.6L | ₹69.8L |
+| Gross margin | ~13.4% | ~17.6% | ~13.8% |
+| **Net profit after tax (~25.17%)** | **~₹12.8L (~$15.1K)** | **~₹29.6L (~$34.8K)** | **~₹52.2L (~$61.4K)** |
 
-**Headline:** Tier 1 is a relationship entry point with thin margin. Tier 2 and 3 carry healthier margin while scaling Dell's visible impact. Internship (Tier 3) adds the largest cost block but strongest employment narrative.
+**Headline:** Tier 1 is a relationship entry point with modest margin (~13%, improved by the shorter 3-day lab). Tier 2 and 3 carry healthier margin while scaling Dell's visible impact. Internship (Tier 3) adds the largest cost block but strongest employment narrative.
 
 ---
 
@@ -27,18 +27,18 @@ Source: `../00-intake/Screenwriters lab - BUDGET - Sheet1-3.pdf`
 
 | Cost line | INR |
 |---|---:|
-| Accommodation & venue | 20,50,000 |
+| Accommodation & venue | 14,00,000 |
 | Travel | 12,00,000 |
 | Mentor honorariums | 10,00,000 |
 | Program team | 19,50,000 |
 | Design, content & outreach | 11,50,000 |
 | Legal, registration & IP | 1,50,000 |
-| Subtotal | 75,00,000 |
-| Contingency (10%) | 7,50,000 |
+| Subtotal | 68,50,000 |
+| Contingency (10%) | 6,85,000 |
 | WIF India fees | 35,00,000 |
-| **Lab total** | **₹117.5L** |
+| **Lab total** | **₹110.4L** |
 
-One-time program cycle. 16 pax, 6-day residential lab, Kolkata/Darjeeling.
+One-time program cycle. 16 pax, 3-day residential lab, Kolkata/Darjeeling. Accommodation & venue reduced from ₹20.5L (5-day) to reflect the shorter 3-day format; pending updated lab budget sheet.
 
 ---
 
@@ -69,16 +69,16 @@ Source: `../00-intake/Proposal for Kamla Mills Foundation - Internal .docx`
 
 | Cost line | INR |
 |---|---:|
-| Stipends (35 x 6mo x ₹20K) | 50,00,000 |
+| Stipends (35 x 6mo x ₹25K) | 52,50,000 |
 | Support team (HR, placement) | 60,00,000 |
 | Host mentor honorariums | 30,00,000 |
 | Travel & accommodation | 40,00,000 |
 | Program management + M&E | 35,00,000 |
 | Closing ceremony | 10,00,000 |
-| Subtotal | 2,25,00,000 |
-| Contingency (10%) | 22,50,000 |
+| Subtotal | 2,27,50,000 |
+| Contingency (10%) | 22,75,000 |
 | WIF India program fee | 52,50,000 (implied in ₹2.5 Cr total) |
-| **Internship annual total** | **₹250.0L (~₹2.5 Cr)** |
+| **Internship annual total** | **₹250.3L (~₹2.5 Cr)** |
 
 35 interns Year 1 toward 100 over 3 years.
 
@@ -88,9 +88,9 @@ Source: `../00-intake/Proposal for Kamla Mills Foundation - Internal .docx`
 
 | Tier | Programs included | Total delivery cost (INR) | Total delivery cost (USD) |
 |---|---|---:|---:|
-| Tier 1 | Lab | ₹117.5L | ~$138K |
-| Tier 2 | Lab + Exhibition | ₹192.8L | ~$227K |
-| Tier 3 | Lab + Exhibition + Internship Y1 | ₹442.8L | ~$521K |
+| Tier 1 | Lab | ₹110.4L | ~$130K |
+| Tier 2 | Lab + Exhibition | ₹185.7L | ~$218K |
+| Tier 3 | Lab + Exhibition + Internship Y1 | ₹436.0L | ~$513K |
 
 ---
 
@@ -100,10 +100,10 @@ Source: `../00-intake/Proposal for Kamla Mills Foundation - Internal .docx`
 |---|---:|---:|---:|
 | Fee (USD) | $150,000 | $265,000 | $595,000 |
 | Fee (INR) | ₹127.5L | ₹225.3L | ₹505.8L |
-| Less: delivery cost | ₹117.5L | ₹192.8L | ₹442.8L |
-| Gross profit | ₹10.0L | ₹32.5L | ₹63.0L |
-| Tax (~25.17%) | ₹2.5L | ₹8.2L | ₹15.9L |
-| Net profit | ₹7.5L | ₹24.3L | ₹47.1L |
+| Less: delivery cost | ₹110.4L | ₹185.7L | ₹436.0L |
+| Gross profit | ₹17.1L | ₹39.6L | ₹69.8L |
+| Tax (~25.17%) | ₹4.3L | ₹10.0L | ₹17.6L |
+| Net profit | ₹12.8L | ₹29.6L | ₹52.2L |
 
 ---
 

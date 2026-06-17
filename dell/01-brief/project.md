@@ -50,7 +50,7 @@ See `../04-specs/program-flow.md` for flowchart and Dell branding integration.
 
 **Internship:**
 - Young women placed in Direction, Writing, Editing, Production, Art, Cinematography, Entertainment Law, OTT, and more
-- Paid stipends (₹20,000/month), travel support, host mentorship
+- Paid stipends (₹25,000/month), travel support, host mentorship
 
 **Exhibition:**
 - Women-centric or women-led films only
@@ -60,7 +60,7 @@ See `../04-specs/program-flow.md` for flowchart and Dell branding integration.
 
 | Program | Internal cost (Base) | Notes |
 |---|---:|---|
-| Screenwriters Lab | ₹1.175 Cr | One-time program cycle |
+| Screenwriters Lab | ₹1.10 Cr | One-time program cycle (3-day) |
 | Internship Program | ₹2.5 Cr / year | 35 interns/year toward 100 over 3 years |
 | Exhibition Program | ₹75 L / year | **Draft estimate**; pending Rabia review |
 
@@ -94,7 +94,7 @@ Multi-year internship: Tier 3 Year 1 includes first cohort year; Years 2-3 price
 
 - 3,500+ WIF India members (core outreach)
 - Advisory board: Guneet Monga Kapoor, Karan Johar, Aparna Purohit, Varun Grover, and 15+ industry leaders
-- WIF LA sister organization; Cannes presence (where EMG relationship began)
+- Mentored by WIF LA; Cannes presence (where EMG relationship began)
 
 ## File map
 

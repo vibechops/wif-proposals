@@ -57,7 +57,7 @@ WIF India presents Dell a tiered sponsorship model. Dell chooses depth of partne
 
 | Program | Internal cost (INR) | USD equivalent |
 |---|---:|---:|
-| Screenwriters Lab (one-time) | ₹1.175 Cr | ~$138K |
+| Screenwriters Lab (one-time, 3-day) | ₹1.10 Cr | ~$130K |
 | Exhibition (annual, draft) | ₹75 L | ~$88K |
 | Internship (annual) | ₹2.5 Cr | ~$294K |
 

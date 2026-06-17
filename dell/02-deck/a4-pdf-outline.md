@@ -38,7 +38,7 @@ Minimal page-by-page outline for the consolidated proposal document.
 
 **Leadership**
 - Guneet Monga Kapoor, Oscar-winning producer, founder
-- WIF LA sister organization
+- Mentored by WIF LA
 - Rabia Chopra, Director of Programs & Development
 
 **Ecosystem**
@@ -61,7 +61,7 @@ Minimal page-by-page outline for the consolidated proposal document.
 ## Page 6 - Program 1: Screenwriters Residency Lab
 
 - Pan-India, genre-based, 6 writers / 6 mentors
-- 5-day residential lab (Kolkata / Darjeeling)
+- 3-day residential lab (Kolkata / Darjeeling)
 - Festival tie-up with industry showcase
 - Timeline: Oct 2025 - Aug 2026
 - IP with writer; "Developed at WIF India Screenwriters Lab, supported by Dell"
@@ -82,7 +82,7 @@ Minimal page-by-page outline for the consolidated proposal document.
 
 ## Page 8 - Program 3: Internship Program
 
-- 6-month paid internships, ₹20,000/month stipend
+- 6-month paid internships, ₹25,000/month stipend
 - 10+ departments across film, TV, OTT
 - 35 women Year 1; 100 over 3 years
 - Travel support, host mentorship, co-branded certificates

@@ -76,7 +76,7 @@ Three parallel tracks. One Dell partnership. One impact report.
 
 - Pan-India, genre-based feature film development lab
 - 6 writers, 6 mentors (Varun Grover, Payal Kapadia, Kiran Rao, and more)
-- 5-day residential workshop: Kolkata / Darjeeling
+- 3-day residential workshop: Kolkata / Darjeeling
 - Festival tie-up: industry showcase + pitching prep
 - IP stays with the writer; mandatory WIF credit
 
@@ -101,7 +101,7 @@ Three parallel tracks. One Dell partnership. One impact report.
 
 **Creating tangible pathways to work.**
 
-- 6-month paid internships (₹20,000/month stipend)
+- 6-month paid internships (₹25,000/month stipend)
 - 10+ departments: Direction, Writing, Editing, Production, Cinematography, Entertainment Law, OTT, and more
 - 35 women Year 1; 100 over 3 years
 - Travel support, host mentorship, certificates
@@ -113,7 +113,7 @@ Three parallel tracks. One Dell partnership. One impact report.
 
 **Leadership**
 - Founded by **Guneet Monga Kapoor**, Oscar-winning producer
-- Sister organization to **WIF LA**, globally recognized advocacy body
+- Mentored by **WIF LA**, globally recognized advocacy body
 - Led by **Rabia Chopra**, 15 years in program management and gender advocacy
 
 **Reach**

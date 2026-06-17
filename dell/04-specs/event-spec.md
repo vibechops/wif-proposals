@@ -29,7 +29,7 @@ Genre-based, pan-India feature film development lab. 6 scripts, 6 mentors, resid
 | Round 1 submission | 2-page concept note (1,000-1,200 words), genre specified |
 | Round 2 submission | 5-page detailed treatment |
 | Final cohort | 6 writers, 1 script per mentor |
-| Residential lab | 5 days, Kolkata / Darjeeling |
+| Residential lab | 3 days, Kolkata / Darjeeling |
 | Participants on site | 6 writers + 6 mentors + 4 core team = 16 pax |
 | Festival tie-up | Part 2: 2-3 day industry showcase (TIFF India / Film Bazaar style) |
 | IP | Writer retains full ownership; mandatory credit: "Developed at the WIF India Screenwriters Lab" |
@@ -51,7 +51,7 @@ Varun Grover, Juhi Chaturvedi, Smita Singh, Payal Kapadia, Kiran Rao, Bhavani Iy
 
 ### Budget (internal)
 
-₹1.175 Cr grand total (incl. 10% contingency and ₹35L WIF fee). Source: `../00-intake/Screenwriters lab - BUDGET - Sheet1-3.pdf`
+₹1.10 Cr grand total (incl. 10% contingency and ₹35L WIF fee), reflecting the 3-day lab format. Source: `../00-intake/Screenwriters lab - BUDGET - Sheet1-3.pdf`
 
 ### Dell branding
 
@@ -130,7 +130,7 @@ Paid 6-month internships placing young women in hands-on roles across the Indian
 | Cohort size (Year 1) | 35 interns |
 | 3-year target | 100 women |
 | Departments | Direction, Writing, Editing, Production, Art, Costume, Casting, Entertainment Law, OTT Programming, Cinematography, and more |
-| Stipend | ₹20,000/month per intern |
+| Stipend | ₹25,000/month per intern |
 | Support | Travel and accommodation (especially non-metro); host mentorship; certificates and recommendation letters |
 | Closing event | Formal ceremony; certificates co-branded Dell + WIF; Dell rep invited to present |
 
@@ -138,15 +138,15 @@ Paid 6-month internships placing young women in hands-on roles across the Indian
 
 | Line item | Estimate (INR) |
 |---|---:|
-| Stipends (35 interns x 6 months x ₹20K) | 50,00,000 |
+| Stipends (35 interns x 6 months x ₹25K) | 52,50,000 |
 | Support team (research, HR, placement) | 60,00,000 |
 | Host mentor honorariums | 30,00,000 |
 | Travel and accommodation support | 40,00,000 |
 | Program management + M&E | 35,00,000 |
 | Closing ceremony | 10,00,000 |
-| Contingency (10%) | 22,50,000 |
-| WIF India program fee | 52,50,000 |
-| **Annual total** | **2,50,00,000 (~₹2.5 Cr)** |
+| Contingency (10%) | 22,75,000 |
+| WIF India program fee | 52,50,000 (implied within total) |
+| **Annual total** | **~2,50,25,000 (~₹2.5 Cr)** |
 
 Source: adapted from `../00-intake/Proposal for Kamla Mills Foundation - Internal .docx`
 

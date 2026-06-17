@@ -44,7 +44,7 @@ Each program can be sponsored independently or as a bundle. Tier 1 = Lab only. T
 2. **Dec 2025:** Shortlist top 50 (pre-jury)
 3. **Jan-Feb 2026:** Treatment phase (5-page treatments from shortlisted writers)
 4. **Mar 2026:** Final 6 scripts selected (one per mentor)
-5. **May 2026:** Writers Lab Part 1 - 5-day residential workshop (Kolkata/Darjeeling)
+5. **May 2026:** Writers Lab Part 1 - 3-day residential workshop (Kolkata/Darjeeling)
 6. **Aug 2026:** Writers Lab Part 2 - festival tie-in showcase + pitching prep
 
 ### Track 2: Exhibition Program (rolling, Year 1)

@@ -58,7 +58,7 @@ window.PROPOSAL_PAGES = [
           title: "Leadership",
           items: [
             "Founded by Guneet Monga Kapoor, Oscar-winning producer (The Elephant Whisperers)",
-            "Sister organization to WIF LA, a globally recognized advocacy body for women in film",
+            "Mentored by WIF LA, a globally recognized advocacy body for women in film",
             "Rabia Chopra, Director: leads program management, partnerships, and industry engagement",
           ],
         },
@@ -180,7 +180,7 @@ window.PROPOSAL_PAGES = [
           title: "What it is",
           items: [
             "Pan-India, genre-based feature film development lab",
-            "6 writers, 6 mentors; 5-day residential lab in Kolkata / Darjeeling",
+            "6 writers, 6 mentors; 3-day residential lab in Kolkata / Darjeeling",
             "IP stays with the writer; credit: \u201cDeveloped at the WIF India Screenwriters Lab\u201d",
           ],
         },
@@ -245,7 +245,7 @@ window.PROPOSAL_PAGES = [
         {
           title: "What it is",
           items: [
-            "6-month paid internships, \u20b920,000/month stipend",
+            "6-month paid internships, \u20b925,000/month stipend",
             "10+ departments: Direction, Writing, Editing, Production, Cinematography, OTT, and more",
             "35 women in Year 1, building toward 100 over three years",
           ],
@@ -280,7 +280,7 @@ window.PROPOSAL_PAGES = [
         { tag: "Tier 2", amount: "USD $265,000", plus: "Lab + Exhibition", desc: "Recommended. Adds women-led films on screens via PVR." },
         { tag: "Tier 3", amount: "USD $595,000", plus: "All three programs", desc: "Adds 35 paid internships in Year 1." },
       ],
-      lead: "Dell chooses sponsorship depth. Each tier unlocks additional programs and visibility. WIF designs, delivers, and reports on every program end to end.",
+      lead: "Dell can support one program, two, or all three. Each tier unlocks additional programs and visibility. WIF designs, delivers, and reports on every program end to end.",
       covers: [
         "Full program design, delivery, and on-ground management",
         "Mentor curation, PVR partnership, and internship placements",
