@@ -7,17 +7,17 @@
   --ink-soft: #4a4255;       /* secondary text */
   --ink-faint: #8a8194;      /* captions / meta */
 
-  /* Brand deep blue (Dell) */
-  --plum: #16456f;           /* primary brand blue */
-  --plum-deep: #07203a;      /* cover ground */
-  --plum-mid: #103a60;
-  --plum-tint: rgba(22, 69, 111, 0.08);
-  --plum-tint-2: rgba(22, 69, 111, 0.14);
+  /* Brand aubergine */
+  --plum: #3a2858;           /* primary brand purple */
+  --plum-deep: #20143a;      /* cover ground */
+  --plum-mid: #2c1d4d;
+  --plum-tint: rgba(58, 40, 88, 0.08);
+  --plum-tint-2: rgba(58, 40, 88, 0.14);
 
-  /* Dell blue accent (single accent, used sparingly) */
-  --ember: #0076ce;
-  --ember-soft: #3d97e0;
-  --ember-tint: rgba(0, 118, 206, 0.10);
+  /* Ember accent (single accent, used sparingly) */
+  --ember: #c6543c;
+  --ember-soft: #d2755f;
+  --ember-tint: rgba(198, 84, 60, 0.10);
 
   /* On dark */
   --on-dark: #f6efe2;
@@ -65,11 +65,11 @@
   --pad-bottom: 56px;
 
   /* ===== Chrome (viewer shell) ===== */
-  --chrome-bg: #0b1626;
-  --chrome-panel: #11203a;
-  --chrome-text: #eef2f7;
-  --chrome-muted: #8aa0bd;
-  --chrome-line: rgba(238, 242, 247, 0.10);
+  --chrome-bg: #15101d;
+  --chrome-panel: #1b1527;
+  --chrome-text: #efe7d8;
+  --chrome-muted: #9a8fb0;
+  --chrome-line: rgba(246, 239, 226, 0.10);
 
-  --page-shadow: 0 40px 100px -20px rgba(5, 16, 32, 0.55);
+  --page-shadow: 0 40px 100px -20px rgba(15, 8, 30, 0.55);
 }

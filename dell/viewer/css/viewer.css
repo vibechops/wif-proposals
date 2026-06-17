@@ -211,8 +211,8 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
 .page--cover {
   padding: 0;
   background:
-    radial-gradient(140% 110% at 20% 0%, #13507f 0%, transparent 55%),
-    linear-gradient(160deg, var(--plum-deep) 0%, var(--plum-mid) 70%, #1a4d7a 100%);
+    radial-gradient(140% 110% at 20% 0%, #3a2362 0%, transparent 55%),
+    linear-gradient(160deg, var(--plum-deep) 0%, var(--plum-mid) 70%, #422b6e 100%);
   color: var(--on-dark);
 }
 
@@ -341,8 +341,8 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
 .page--closing {
   padding: 0;
   background:
-    radial-gradient(150% 120% at 80% 100%, #13507f 0%, transparent 55%),
-    linear-gradient(160deg, var(--plum-deep) 0%, var(--plum-mid) 72%, #1a4d7a 100%);
+    radial-gradient(150% 120% at 80% 100%, #3a2362 0%, transparent 55%),
+    linear-gradient(160deg, var(--plum-deep) 0%, var(--plum-mid) 72%, #422b6e 100%);
   color: var(--on-dark);
 }
 
