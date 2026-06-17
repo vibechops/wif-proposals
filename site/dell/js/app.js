@@ -447,6 +447,18 @@
     els.btnPrev.addEventListener("click", () => goTo(current - 1));
     els.btnNext.addEventListener("click", () => goTo(current + 1));
 
+    // Heading font toggle (serif Fraunces <-> sans Space Grotesk).
+    const fontBtns = document.querySelectorAll(".font-toggle__btn");
+    const applyFont = (font) => {
+      document.documentElement.classList.toggle("font-sans", font === "sans");
+      fontBtns.forEach((b) => b.classList.toggle("is-active", b.dataset.font === font));
+      try { localStorage.setItem("dellFont", font); } catch (e) { /* ignore */ }
+    };
+    let savedFont = "serif";
+    try { savedFont = localStorage.getItem("dellFont") || "serif"; } catch (e) { /* ignore */ }
+    applyFont(savedFont);
+    fontBtns.forEach((b) => b.addEventListener("click", () => applyFont(b.dataset.font)));
+
     // Timeline view toggle (phase view <-> week-by-week table).
     els.stage.addEventListener("click", (e) => {
       const btn = e.target.closest(".tl-toggle__btn");
