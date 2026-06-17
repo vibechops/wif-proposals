@@ -37,12 +37,20 @@ Note: `google/` uses a flat layout from an earlier pass. New clients use numbere
 |---|---|
 | `/` | Proposal hub |
 | `/google` | Google Flow interactive viewer |
+| `/dell` | Dell interactive viewer |
 
-Deploy root is `site/` (see root `vercel.json`). Source for the Google viewer is `google/viewer/`; sync before deploy:
+Deploy root is `site/` (see root `vercel.json`). Viewer sources live in `{client}/viewer/`; sync before deploy:
 
 ```bash
-./scripts/sync-site-google.sh
+./scripts/sync-site.sh
 vercel --prod
+```
+
+For local preview, serve from `site/` so the `/google` and `/dell` base paths resolve:
+
+```bash
+cd site && python3 -m http.server 8080
+# http://localhost:8080/google/  and  http://localhost:8080/dell/
 ```
 
 **Legacy:** `google-wif` repo and project are archived. This monorepo replaces them.

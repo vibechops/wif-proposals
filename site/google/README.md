@@ -20,21 +20,27 @@ Original Canva fonts: **HKSentiments**, **Aileron** (not available on Google Fon
 
 ## Local preview
 
+From repo root (matches production paths):
+
 ```bash
-cd viewer
+cd site
 python3 -m http.server 8080
 ```
 
-Open http://localhost:8080
+Open http://localhost:8080/google/
 
 ## Deploy to Vercel
 
+This folder is the **working source**. Vercel serves from `site/google/` at `/google`.
+
+From repo root:
+
 ```bash
-cd viewer
-npx vercel
+./scripts/sync-site.sh
+vercel --prod
 ```
 
-Or connect the `viewer/` folder as the project root in the Vercel dashboard.
+Live: `https://wif-proposals.vercel.app/google` (hub at `/`).
 
 ## Controls
 

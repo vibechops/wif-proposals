@@ -17,3 +17,5 @@ google/.extract/
 # OS
 .DS_Store
 **/.DS_Store
+.vercel
+.env*.local

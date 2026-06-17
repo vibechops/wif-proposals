@@ -36,7 +36,7 @@ This folder is the **working source**. Vercel serves from `site/google/` at `/go
 From repo root:
 
 ```bash
-./scripts/sync-site-google.sh
+./scripts/sync-site.sh
 vercel --prod
 ```
 

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <base href="/dell/">
+  <title>Dell × WIF India</title>
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/tokens.css?v=8">
+  <link rel="stylesheet" href="css/viewer.css?v=49">
+  <style>
+    @page { size: 794px 1123px; margin: 0; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      overflow: visible;
+      height: auto;
+    }
+
+    #print-root { display: block; }
+
+    .page-frame {
+      width: 794px;
+      height: 1123px;
+      flex: none;
+      position: relative;
+      box-shadow: none !important;
+      transform: none !important;
+      overflow: hidden;
+      break-after: page;
+      page-break-after: always;
+    }
+    .page-frame:last-child {
+      break-after: auto;
+      page-break-after: auto;
+    }
+
+    .page { animation: none !important; }
+
+    * {
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+    }
+  </style>
+</head>
+<body>
+  <div id="print-root"></div>
+
+  <script src="js/pages.js?v=49"></script>
+  <script src="js/app.js?v=49"></script>
+  <script>
+    (function () {
+      const root = document.getElementById("print-root");
+      window.PROPOSAL.pages.forEach((p) => {
+        const frame = document.createElement("div");
+        frame.className = "page-frame";
+        frame.innerHTML = window.PROPOSAL.renderPageHTML(p);
+        root.appendChild(frame);
+      });
+      document.documentElement.setAttribute("data-ready", "true");
+    })();
+  </script>
+</body>
+</html>
