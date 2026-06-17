@@ -34,13 +34,13 @@ Post-Prashant call: Google provides expert only. WIF funds Filmathon credits if 
 
 | City | Venue | Capacity | Date |
 |---|---|---|---|
-| Mumbai | Whistling Woods | 100+ | |
-| Pune | FTII | 100+ | |
-| Kolkata | SRFTII | 100+ | |
-| Delhi | Ashoka University | 100+ | |
-| Chennai | Annapurna College | 100+ | |
-| Hyderabad | Romaji Studios | 100+ | |
-| Bangalore | TBD | 100+ | |
+| Mumbai | Whistling Woods International | 100+ | |
+| Pune | FTII **or** Symbiosis (Media & Comm) | 100+ | |
+| Kolkata | SRFTI **or** St. Xavier's | 100+ | |
+| Delhi | AAFT, Noida | 100+ | |
+| Chennai | LV Prasad Film & TV Academy | 100+ | |
+| Hyderabad | Annapurna College of Film & Media | 100+ | |
+| Bangalore | Srishti Manipal Institute | 100+ | |
 
 ---
 

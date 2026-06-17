@@ -34,13 +34,13 @@ Modules 1+2 can run without Module 3 if WIF does not want to fund credits. See `
 
 | City | Venue |
 |---|---|
-| Mumbai | Whistling Woods |
-| Pune | FTII |
-| Kolkata | SRFTII |
-| Delhi | Ashoka University |
-| Chennai | Annapurna College |
-| Hyderabad | Romaji Studios |
-| Bangalore | TBD |
+| Mumbai | Whistling Woods International |
+| Pune | FTII **or** Symbiosis (Media & Comm) |
+| Kolkata | SRFTI **or** St. Xavier's |
+| Delhi | AAFT, Noida |
+| Chennai | LV Prasad Film & TV Academy |
+| Hyderabad | Annapurna College of Film & Media |
+| Bangalore | Srishti Manipal Institute |
 
 Professional venues (Soho House etc.) are secondary. Primary format is **college events** where professionals are invited for networking.
 
