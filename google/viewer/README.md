@@ -20,12 +20,14 @@ Original Canva fonts: **HKSentiments**, **Aileron** (not available on Google Fon
 
 ## Local preview
 
+From repo root (matches production paths):
+
 ```bash
-cd viewer
+cd site
 python3 -m http.server 8080
 ```
 
-Open http://localhost:8080
+Open http://localhost:8080/google/
 
 ## Deploy to Vercel
 
