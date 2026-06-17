@@ -38,7 +38,7 @@ From repo root:
 vercel --prod
 ```
 
-Live: `https://wif-porposals.vercel.app/google` (hub at `/`).
+Live: `https://wif-proposals.vercel.app/google` (hub at `/`).
 
 ## Controls
 

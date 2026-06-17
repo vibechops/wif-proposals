@@ -1,5 +1,5 @@
 {
-  "buildCommand": null,
+  "buildCommand": "rm -rf site/google && mkdir -p site/google && cp -R google/viewer/. site/google/ && rm -rf site/google/.vercel site/google/.env.local",
   "outputDirectory": "site",
   "framework": null,
   "cleanUrls": true,

@@ -31,7 +31,7 @@ Note: `google/` uses a flat layout from an earlier pass. New clients use numbere
 
 ## Deploy (Vercel)
 
-**Live site:** [wif-porposals.vercel.app](https://wif-porposals.vercel.app) (rename to `wif-proposals` in Vercel dashboard if you want to fix the typo)
+**Live site:** [wif-proposals.vercel.app](https://wif-proposals.vercel.app)
 
 | Path | Content |
 |---|---|
