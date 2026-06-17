@@ -73,7 +73,7 @@
           <div class="cover-hero">
             <span class="cover-mark" aria-hidden="true">&times;</span>
             <div class="cover-lockup">
-              <span class="cover-flow">Dell</span>
+              <img src="assets/dell-logo.svg?v=1" alt="Dell" class="cover-dell-logo">
               <span class="cover-sep">&times;</span>
               <img src="assets/wif-logo.png?v=2" alt="WIF India" class="cover-wif-logo">
             </div>

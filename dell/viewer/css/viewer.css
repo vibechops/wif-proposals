@@ -341,6 +341,14 @@ html.font-sans {
   margin-top: -6px;
 }
 
+.cover-dell-logo {
+  display: block;
+  align-self: flex-start;
+  height: 78px;
+  width: auto;
+  object-position: left top;
+}
+
 .cover-sep {
   display: block;
   font-family: var(--font-display);
