@@ -63,7 +63,7 @@ flowchart LR
 - YouTube livestream
 - Script call topic announced at close
 
-Venues: Whistling Woods, FTII/Symbiosis, SRFTI/St. Xavier's, AAFT, LV Prasad, Annapurna, Srishti Manipal.
+Venues: Whistling Woods, FTII or Symbiosis, SRFTI or St. Xavier's, AAFT, LV Prasad, Annapurna, Srishti Manipal.
 
 ---
 

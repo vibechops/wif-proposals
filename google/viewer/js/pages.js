@@ -203,7 +203,7 @@ window.PROPOSAL_PAGES = [
           icon: "route",
           label: "Roadshow",
           range: "Weeks 5–12",
-          cities: ["Mumbai - Whistling Woods", "Pune - FTII / Symbiosis", "Kolkata - SRFTI / St. Xavier's", "Delhi - AAFT", "Chennai - LV Prasad", "Hyderabad - Annapurna", "Bangalore - Srishti Manipal"],
+          cities: ["Mumbai - Whistling Woods", "Pune - FTII or Symbiosis", "Kolkata - SRFTI or St. Xavier's", "Delhi - AAFT", "Chennai - LV Prasad", "Hyderabad - Annapurna", "Bangalore - Srishti Manipal"],
         },
         {
           icon: "flag",
@@ -251,7 +251,7 @@ window.PROPOSAL_PAGES = [
           icon: "route",
           label: "Roadshow + call for submissions",
           range: "Weeks 5–12",
-          cities: ["Mumbai - Whistling Woods", "Pune - FTII / Symbiosis", "Kolkata - SRFTI / St. Xavier's", "Delhi - AAFT", "Chennai - LV Prasad", "Hyderabad - Annapurna", "Bangalore - Srishti Manipal"],
+          cities: ["Mumbai - Whistling Woods", "Pune - FTII or Symbiosis", "Kolkata - SRFTI or St. Xavier's", "Delhi - AAFT", "Chennai - LV Prasad", "Hyderabad - Annapurna", "Bangalore - Srishti Manipal"],
           note: "National call for submissions opens Week 5, closes Week 12",
         },
         {
