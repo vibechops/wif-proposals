@@ -238,6 +238,7 @@ def build():
         ("Google Flow expert-led workshop", True, True),
         ("Students + professionals networking", True, True),
         ("16-week program", True, True),
+        ("Online workshops", True, True),
         ("National short film call for submissions", False, True),
         ("WIF script curation + filmmaker selection", False, True),
         ("AI Filmathon (14-day production in Flow)", False, True),

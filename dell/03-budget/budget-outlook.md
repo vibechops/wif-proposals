@@ -1,41 +1,41 @@
 # WIF budget outlook: Dell sponsorship (via EMG)
 
-Client-facing USD tiers. Internal INR cost models in `cost-breakdown.md` (not for client deck).
+Client-facing USD program options. Internal INR cost models in `cost-breakdown.md` (not for client deck).
 
 FX planning rate: **$1 ≈ ₹85**
 
 ---
 
-## Sponsorship tiers
+## Program options
 
-WIF India presents Dell a tiered sponsorship model. Dell chooses depth of partnership; each tier unlocks additional programs.
+WIF India presents Dell three **independent** programs. Dell or EMG selects **one**.
 
-| Tier | Programs | What Dell funds | Recommended ask |
-|---|---|---|---|
-| **Tier 1** | Screenwriters Residency Lab | Feature film development for 6 writers; residential mentorship; festival showcase | **USD $150,000** |
-| **Tier 2** | Lab + Exhibition Program | Everything in Tier 1, plus distribution of 6 women-centric films via PVR (15-20 screenings each) | **USD $265,000** |
-| **Tier 3** | Lab + Exhibition + Internship (Year 1) | Everything in Tier 2, plus 35 paid internships for young women across 10+ film departments | **USD $595,000** |
-
----
-
-## What each tier delivers (outcomes)
-
-| Outcome | Tier 1 | Tier 2 | Tier 3 |
-|---|---|---|---|
-| Feature scripts developed | 6 | 6 | 6 |
-| Mentors engaged | 6 | 6 | 6 |
-| Films exhibited (Year 1) | - | 6 | 6 |
-| Screenings (total, Year 1) | - | ~90-120 | ~90-120 |
-| Women interned (Year 1) | - | - | 35 |
-| Premiere / showcase events | 1 (festival) | 7 (festival + 6 premieres) | 7 + closing ceremony |
+| Program | What Dell funds | Recommended ask |
+|---|---|---:|
+| **Screenwriters Residency Lab** | Feature film development for 6 writers; 3-day residential mentorship; festival showcase | **USD $150,000** |
+| **Exhibition Program** | Distribution of 6 women-centric films via PVR (15-20 screenings each) | **USD $150,000** |
+| **Internship Program** | 30–35 paid internships for young women across 10+ film departments | **USD $200,000 / year** |
 
 ---
 
-## Dell brand visibility (all tiers)
+## What each program delivers (outcomes)
 
-- **Presenting Partner** status across all sponsored program materials
+| Outcome | Lab | Exhibition | Internship |
+|---|---|---|---|
+| Feature scripts developed | 6 | - | - |
+| Mentors engaged | 6 | - | - |
+| Films exhibited | - | 6 | - |
+| Screenings (total) | - | ~90-120 | - |
+| Women interned | - | - | 30-35 |
+| Premiere / showcase events | 1 (festival) | 6 premieres | Closing ceremony |
+
+---
+
+## Dell brand visibility (all programs)
+
+- **Presenting Partner** status across the sponsored program
 - Dell logo on applications, event collateral, screening intro cards, certificates
-- "Supported by Dell" credit on writer pitch decks and festival submissions
+- "Supported by Dell" credit on writer pitch decks and festival submissions (Lab)
 - Annual impact report with program metrics
 - Invitation to key events (lab, premieres, closing ceremony)
 
@@ -43,13 +43,14 @@ WIF India presents Dell a tiered sponsorship model. Dell chooses depth of partne
 
 ---
 
-## Multi-year option (Tier 3 extension)
+## Multi-year option (Internship extension)
 
 | Period | Scope | Annual ask |
 |---|---|---:|
-| Year 1 | Lab + Exhibition + Internship (35 women) | $595,000 |
-| Year 2-3 | Exhibition + Internship (35 women/year) | $445,000/year |
-| 3-year total (100 internships) | Full pipeline | ~$1,485,000 |
+| Year 1 | Internship (30–35 women) | $200,000 |
+| Year 2+ | Internship (30–35 women/year) | $200,000/year |
+
+Optional follow-on years at the same rate. Lab and Exhibition are one-time or annual programs priced independently.
 
 ---
 
@@ -67,16 +68,18 @@ Detail and margin analysis: `cost-breakdown.md`
 
 ## Payment structure (proposed)
 
-| Milestone | % | Tier 1 | Tier 2 | Tier 3 |
+40 / 30 / 30 split per selected program:
+
+| Milestone | % | Lab | Exhibition | Internship |
 |---|---:|---:|---:|---:|
-| On signing | 40% | $60,000 | $106,000 | $238,000 |
-| Program launch | 30% | $45,000 | $79,500 | $178,500 |
-| Mid-program report | 30% | $45,000 | $79,500 | $178,500 |
+| On signing | 40% | $60,000 | $60,000 | $80,000 |
+| Program launch | 30% | $45,000 | $45,000 | $60,000 |
+| Mid-program report | 30% | $45,000 | $45,000 | $60,000 |
 
 ---
 
 ## Notes
 
 - Exhibition Program budget is based on draft assumptions (6 films, PVR partnership). Final numbers after Rabia confirmation.
-- Internship Year 1 places 35 women; Years 2-3 continue toward 100 total.
+- Internship places 30–35 women per year at $200K/year.
 - WIF charter (full program menu) sent separately; this proposal is custom-built for Dell.

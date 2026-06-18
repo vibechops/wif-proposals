@@ -1,6 +1,7 @@
 (function () {
   const pages = window.PROPOSAL_PAGES;
   let current = 0;
+  document.documentElement.classList.add("font-instrument");
 
   const els = {
     stage: document.getElementById("stage"),
@@ -52,7 +53,7 @@
 
   function page(page, inner, mod) {
     return `
-      <article class="page page--paper ${mod || ""}">
+      <article class="page page--paper ${mod || ""} page--accent">
         ${runner(page)}
         <div class="page-body">${inner}</div>
         ${folio(page)}
@@ -62,28 +63,59 @@
   /* ---------- Cover ---------- */
   function renderCover(p) {
     const d = p.data;
+    const blurb =
+      d.blurb ||
+      "WIF India and Dell, partnering to develop women screenwriters, put women-led films on screens, and place young women in paid film jobs.";
+    const titleLines = (d.subtitle || "Get More Women More Jobs")
+      .replace(/\s+More\s+Jobs/i, "<br>More Jobs")
+      .replace(/\s+More\s+/i, "<br>More ");
+    // Angular interlocking wedges, rounded edges. Dark plum ground with an
+    // ember gradient sweep top-right and a silver wedge bottom-left.
+    const art = `
+      <svg class="cb-art" viewBox="0 0 794 1123" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <defs>
+          <linearGradient id="cbEmber" x1="0.15" y1="1" x2="0.9" y2="0.05">
+            <stop offset="0" stop-color="#a8402c"/>
+            <stop offset="0.42" stop-color="#c6543c"/>
+            <stop offset="0.72" stop-color="#d2755f"/>
+            <stop offset="1" stop-color="#e7a986"/>
+          </linearGradient>
+          <linearGradient id="cbSilver" x1="0" y1="1" x2="1" y2="0.2">
+            <stop offset="0" stop-color="#d9d1c4"/>
+            <stop offset="1" stop-color="#efe7d8"/>
+          </linearGradient>
+        </defs>
+        <rect width="794" height="1123" fill="#20143a"/>
+        <path class="cb-shape-ember"
+          d="M362 -40 L834 -40 L834 812 Q700 742 566 506 Q452 306 372 96 Q346 28 362 -40 Z"
+          fill="url(#cbEmber)"/>
+        <path class="cb-shape-silver"
+          d="M-40 1163 L-40 612 Q120 700 250 880 Q360 1030 470 1163 Z"
+          fill="url(#cbSilver)"/>
+      </svg>`;
     return `
-      <article class="page page--cover">
-        <div class="cover-frame">
-          <header class="cover-top">
-            <span class="cover-eyebrow">${d.eyebrow}</span>
-            <span class="cover-year">${d.date}</span>
-          </header>
-
-          <div class="cover-hero">
-            <span class="cover-mark" aria-hidden="true">&times;</span>
-            <div class="cover-lockup">
-              <img src="assets/dell-logo.svg?v=1" alt="Dell" class="cover-dell-logo">
-              <span class="cover-sep">&times;</span>
-              <img src="assets/wif-logo.png?v=2" alt="WIF India" class="cover-wif-logo">
-            </div>
-          </div>
-
-          <footer class="cover-foot">
-            <span class="cover-sub">${d.subtitle}</span>
-            <span class="cover-meta">${d.meta || ""}</span>
-          </footer>
+      <article class="page page--cover page--cover-bold">
+        <div class="cb-bg" aria-hidden="true">
+          ${art}
+          <span class="cb-grain"></span>
         </div>
+        <header class="cb-top">
+          <span class="cb-eyebrow">${d.eyebrow}</span>
+          <span class="cb-tag">${d.meta || ""}</span>
+        </header>
+        <h1 class="cb-title">${titleLines}</h1>
+        <div class="cb-blurb-wrap">
+          <span class="cb-blurb-rule" aria-hidden="true"></span>
+          <p class="cb-blurb">${blurb}</p>
+        </div>
+        <footer class="cb-foot">
+          <div class="cb-brand">
+            <img src="assets/dell-logo.svg?v=1" alt="Dell" class="cover-dell-logo cb-dell-logo">
+            <span class="cover-sep cb-sep">&times;</span>
+            <img src="assets/wif-logo.png?v=2" alt="WIF India" class="cover-wif-logo cb-wif-logo">
+          </div>
+          <span class="cb-year">${d.date || ""}</span>
+        </footer>
       </article>`;
   }
 
@@ -298,7 +330,7 @@
       <div class="budget">
         <p class="budget__label">${d.label}</p>
         <div class="budget-tiers">${tiers}</div>
-        <p class="budget__lead">${d.lead}</p>
+        ${d.lead ? `<p class="budget__lead">${d.lead}</p>` : ""}
         <ul class="budget__covers">${covers}</ul>
         <p class="aside"><span class="aside__bar"></span>${d.note}</p>
       </div>`;
@@ -350,31 +382,53 @@
   function renderClosing(p) {
     const d = p.data;
     const lead = d.lead.map((s) => (s.em ? `<em>${s.t}</em>` : s.t)).join("");
-    const stats = d.stats
+    const stats = (d.stats || [])
       .map(
         (s) => `
-        <div class="closing-stat">
-          <span class="closing-stat__value">${s.value}</span>
-          <span class="closing-stat__label">${s.label}</span>
+        <div class="cb2-stat">
+          <span class="cb2-stat__value">${s.value}</span>
+          <span class="cb2-stat__label">${s.label}</span>
         </div>`
       )
       .join("");
+    const statsBlock = stats ? `<footer class="cb2-foot"><div class="cb2-stats">${stats}</div></footer>` : "";
+    // Bookends the bold cover: same ember sweep top-right, silver accent
+    // tucked into the bottom-right corner so the stats stay on dark.
+    const art = `
+      <svg class="cb-art" viewBox="0 0 794 1123" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <defs>
+          <linearGradient id="cb2Ember" x1="0.15" y1="1" x2="0.9" y2="0.05">
+            <stop offset="0" stop-color="#a8402c"/>
+            <stop offset="0.42" stop-color="#c6543c"/>
+            <stop offset="0.72" stop-color="#d2755f"/>
+            <stop offset="1" stop-color="#e7a986"/>
+          </linearGradient>
+          <linearGradient id="cb2Silver" x1="1" y1="1" x2="0" y2="0.2">
+            <stop offset="0" stop-color="#d9d1c4"/>
+            <stop offset="1" stop-color="#efe7d8"/>
+          </linearGradient>
+        </defs>
+        <rect width="794" height="1123" fill="#20143a"/>
+        <path d="M402 -40 L834 -40 L834 612 Q700 552 566 332 Q452 152 392 12 Q372 -16 402 -40 Z"
+          fill="url(#cb2Ember)"/>
+        <path d="M834 1163 L834 836 Q752 892 690 1006 Q650 1080 614 1163 Z"
+          fill="url(#cb2Silver)"/>
+      </svg>`;
     return `
-      <article class="page page--closing">
-        <div class="closing-frame">
-          <header class="closing-top">
-            <span class="closing-eyebrow">${d.eyebrow}</span>
-            <span class="closing-brand">${d.brand}</span>
-          </header>
-          <div class="closing-hero">
-            <span class="closing-mark" aria-hidden="true">&times;</span>
-            <p class="closing-statement">${lead}</p>
-          </div>
-          <footer class="closing-foot">
-            <div class="closing-stats">${stats}</div>
-            <span class="closing-cta">${d.close}</span>
-          </footer>
+      <article class="page page--closing page--closing-bold">
+        <div class="cb-bg" aria-hidden="true">
+          ${art}
+          <span class="cb-grain"></span>
         </div>
+        <header class="cb2-top">
+          <span class="cb2-eyebrow">${d.eyebrow}</span>
+          <span class="cb2-brand">${d.brand}</span>
+        </header>
+        <div class="cb2-hero">
+          <p class="cb2-statement">${lead}</p>
+          <p class="cb2-cta">${d.close}</p>
+        </div>
+        ${statsBlock}
       </article>`;
   }
 
@@ -446,18 +500,6 @@
   if (els.stage && els.btnPrev && els.btnNext) {
     els.btnPrev.addEventListener("click", () => goTo(current - 1));
     els.btnNext.addEventListener("click", () => goTo(current + 1));
-
-    // Heading font toggle (serif Fraunces <-> sans Space Grotesk).
-    const fontBtns = document.querySelectorAll(".font-toggle__btn");
-    const applyFont = (font) => {
-      document.documentElement.classList.toggle("font-sans", font === "sans");
-      fontBtns.forEach((b) => b.classList.toggle("is-active", b.dataset.font === font));
-      try { localStorage.setItem("dellFont", font); } catch (e) { /* ignore */ }
-    };
-    let savedFont = "serif";
-    try { savedFont = localStorage.getItem("dellFont") || "serif"; } catch (e) { /* ignore */ }
-    applyFont(savedFont);
-    fontBtns.forEach((b) => b.addEventListener("click", () => applyFont(b.dataset.font)));
 
     // Timeline view toggle (phase view <-> week-by-week table).
     els.stage.addEventListener("click", (e) => {

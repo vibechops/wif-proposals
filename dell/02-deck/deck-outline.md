@@ -4,7 +4,7 @@
 **Format:** 14 slides + appendix | 3-program consolidated sponsorship
 **Status:** Draft v1 (post-Rabia intake)
 
-Design lens: Dell sponsors WIF India's impact across development, distribution, and employment. Three programs, three tiers. Lead with Tier 2.
+Design lens: Dell sponsors WIF India's impact across development, distribution, or employment. Three independent programs; Dell or EMG picks one.
 
 ---
 
@@ -30,27 +30,27 @@ Dell has the opportunity to be the **Presenting Partner** across this pipeline.
 
 ---
 
-## Slide 3 - Three programs, one partnership
+## Slide 3 - Three programs, one choice
 
 | Program | What | Dell visibility |
 |---|---|---|
 | **1. Screenwriters Residency Lab** | 6 feature scripts, 6 mentors, residential lab, festival showcase | Presenting Partner; festival credits |
 | **2. Exhibition Program** | 6 women-centric films, PVR distribution, 15-20 screenings each | Co-branded premieres; screening slates |
-| **3. Internship Program** | 35 paid internships/year across 10+ departments | Co-branded certificates; closing ceremony |
+| **3. Internship Program** | 30–35 paid internships/year across 10+ departments | Co-branded certificates; closing ceremony |
 
-Dell chooses sponsorship depth via tier (next slide).
+Dell or EMG selects **one** program to sponsor (next slide).
 
 ---
 
-## Slide 4 - Sponsorship tiers
+## Slide 4 - Program options
 
-| Tier | Programs | Investment |
-|---|---|---:|
-| **Tier 1** | Screenwriters Lab | **USD $150,000** |
-| **Tier 2** | Lab + Exhibition | **USD $265,000** |
-| **Tier 3** | Lab + Exhibition + Internship (Y1) | **USD $595,000** |
+| Program | Investment |
+|---|---:|
+| **Screenwriters Residency Lab** | **USD $150,000** |
+| **Exhibition Program** | **USD $150,000** |
+| **Internship Program** | **USD $200,000 / year** |
 
-**Recommended:** Tier 2. Maximum visibility across development and distribution.
+Dell or EMG selects one. Each program is fully scoped, delivered, and reported by WIF India.
 
 ---
 
@@ -66,7 +66,7 @@ flowchart LR
     F --> G
 ```
 
-Three parallel tracks. One Dell partnership. One impact report.
+Three parallel tracks. One Dell partnership. One impact report per sponsored program.
 
 ---
 
@@ -103,7 +103,7 @@ Three parallel tracks. One Dell partnership. One impact report.
 
 - 6-month paid internships (₹25,000/month stipend)
 - 10+ departments: Direction, Writing, Editing, Production, Cinematography, Entertainment Law, OTT, and more
-- 35 women Year 1; 100 over 3 years
+- 30–35 women per year; optional multi-year extension at $200K/year
 - Travel support, host mentorship, certificates
 - Closing ceremony with Dell co-branded certificates
 
@@ -149,17 +149,17 @@ Three parallel tracks. One Dell partnership. One impact report.
 
 ---
 
-## Slide 12 - Impact metrics
+## Slide 12 - Impact metrics (by program)
 
-| Metric | Tier 1 | Tier 2 | Tier 3 |
+| Metric | Lab | Exhibition | Internship |
 |---|---|---|---|
-| Feature scripts developed | 6 | 6 | 6 |
-| Films exhibited | - | 6 | 6 |
-| Total screenings | - | 90-120 | 90-120 |
-| Women interned | - | - | 35 |
-| Cities reached | 2+ | 6+ | 6+ |
+| Feature scripts developed | 6 | - | - |
+| Films exhibited | - | 6 | - |
+| Total screenings | - | 90-120 | - |
+| Women interned | - | - | 30-35 |
+| Cities reached | 2+ | 6+ | Nationwide |
 
-Annual WIF India Gender Employment Report included in Tier 3.
+Annual WIF India Gender Employment Report included with Internship sponsorship.
 
 ---
 
@@ -179,18 +179,20 @@ In-film product placement (Sikhya / Raonaq) is a parallel track. WIF facilitates
 
 ## Slide 14 - The ask
 
-**Recommended sponsorship: Tier 2 at USD $265,000**
+**Dell or EMG selects one program:**
 
-( Lab + Exhibition Program )
+- Screenwriters Lab: **USD $150,000**
+- Exhibition Program: **USD $150,000**
+- Internship Program: **USD $200,000 / year**
 
 **From Dell**
-- Tiered program sponsorship (Tier 1 / 2 / 3)
-- Presenting Partner status across sponsored programs
+- Program sponsorship (one of three)
+- Presenting Partner status across the sponsored program
 - Optional: representative at key events
 
 **From WIF India**
 - Full program design and delivery
-- Mentor curation, PVR partnership, internship placements
+- Mentor curation, PVR partnership, or internship placements (per program)
 - Annual impact report and M&E
 - Introduction to Sikhya / Raonaq for in-film branding
 
@@ -202,7 +204,7 @@ In-film product placement (Sikhya / Raonaq) is a parallel track. WIF facilitates
 
 ### A1 - Budget summary
 
-See `../03-budget/budget-outlook.md`. Tier 1: $150K. Tier 2: $265K. Tier 3: $595K.
+See `../03-budget/budget-outlook.md`. Lab: $150K. Exhibition: $150K. Internship: $200K/year.
 
 ### A2 - Screenwriters Lab mentors (proposed)
 
@@ -216,6 +218,6 @@ Direction, Writing, Editing, Production, Costume, Art, Casting, Entertainment La
 
 6 films/year, 15-20 PVR screenings each, 6 cities, understated premiere format. Pending Rabia confirmation.
 
-### A5 - Multi-year pricing (Tier 3 extension)
+### A5 - Multi-year internship extension
 
-Year 1: $595K. Years 2-3: $445K/year (Exhibition + Internship). 3-year total: ~$1.485M for 100 internships.
+Internship: $200K/year for 30–35 women per cohort. Optional follow-on years at same rate.

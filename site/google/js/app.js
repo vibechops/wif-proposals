@@ -16,6 +16,7 @@
     comparison: "Choose a track",
     roles: "Division of work",
     timeline: "Program schedule",
+    outreach: "Audience &amp; reach",
     budget: "The investment",
     ask: "The decision",
   };
@@ -279,6 +280,53 @@
     --- */
   }
 
+  /* ---------- Outreach (audience & reach) ---------- */
+  function renderOutreach(p) {
+    const d = p.data;
+    const rows = d.colleges
+      .map(
+        (c) => `
+        <tr>
+          <td class="reach__city">${c.city}</td>
+          <td class="reach__inst">${c.institute}</td>
+          <td class="reach__num">${c.students}</td>
+        </tr>`
+      )
+      .join("");
+    const pillars = d.pillars
+      .map(
+        (pl) => `
+        <div class="reach-pillar${pl.accent ? " reach-pillar--accent" : ""}">
+          <span class="reach-pillar__value">${pl.value}</span>
+          <span class="reach-pillar__label">${pl.label}</span>
+          <span class="reach-pillar__sub">${pl.sub}</span>
+        </div>`
+      )
+      .join("");
+    const inner = `
+      ${titleblock(KICKERS.outreach, d.heading)}
+      <p class="outreach-lead">${d.lead}</p>
+      <table class="reach">
+        <thead>
+          <tr>
+            <th class="reach__city">City</th>
+            <th class="reach__inst">Institute</th>
+            <th class="reach__num">Est. students</th>
+          </tr>
+        </thead>
+        <tbody>${rows}</tbody>
+        <tfoot>
+          <tr class="reach__total">
+            <td class="reach__city" colspan="2">${d.totalLabel}</td>
+            <td class="reach__num">${d.totalValue}</td>
+          </tr>
+        </tfoot>
+      </table>
+      <div class="reach-pillars">${pillars}</div>
+      <p class="aside"><span class="aside__bar"></span>${d.note}</p>`;
+    return page(p, inner, "page--outreach");
+  }
+
   /* ---------- Budget ---------- */
   function renderBudget(p) {
     const d = p.data;
@@ -388,6 +436,7 @@
     comparison: renderComparison,
     roles: renderRoles,
     timeline: renderTimeline,
+    outreach: renderOutreach,
     budget: renderBudget,
     ask: renderAsk,
     closing: renderClosing,

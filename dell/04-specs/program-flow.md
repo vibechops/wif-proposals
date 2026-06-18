@@ -9,14 +9,14 @@ Visual overview of the consolidated Dell sponsorship across three WIF India prog
 ```mermaid
 flowchart TD
     EMG[EMG London] --> Dell[Dell]
-    Dell --> Sponsor[Dell sponsorship USD tiers]
+    Dell --> Sponsor[Dell selects one program]
     Sponsor --> Lab[Screenwriters Residency Lab]
     Sponsor --> Exhib[Exhibition Program]
     Sponsor --> Intern[Internship Program]
     Dell --> Brand[In-film branding via Sikhya Raunaq]
     Lab --> Out1[Festival showcase + Developed at WIF credit]
     Exhib --> Out2[PVR screenings + understated premieres]
-    Intern --> Out3[100 women placed + closing ceremony]
+    Intern --> Out3[30-35 women placed per year + closing ceremony]
     Out1 --> Impact[WIF impact report + Dell visibility]
     Out2 --> Impact
     Out3 --> Impact
@@ -26,7 +26,7 @@ flowchart TD
 
 ## Three programs (for Dell approval)
 
-Each program can be sponsored independently or as a bundle. Tier 1 = Lab only. Tier 2 = Lab + Exhibition. Tier 3 = all three (Internship Year 1).
+Dell or EMG selects **one** of three independent programs. Each is fully scoped and priced separately.
 
 | Program | What it is | Dell visibility | WIF delivers |
 |---|---|---|---|
@@ -55,10 +55,10 @@ Each program can be sponsored independently or as a bundle. Tier 1 = Lab only. T
 4. **Ongoing:** Multi-city screening windows; social and press coverage
 5. **Year-end:** Impact report: screenings, attendance, filmmaker reach
 
-### Track 3: Internship Program (Year 1 of 3)
+### Track 3: Internship Program (annual)
 
 1. **Q1:** Partner with 10+ production houses, OTT platforms, channels
-2. **Q1-Q2:** Recruit and place first cohort (35 interns)
+2. **Q1-Q2:** Recruit and place cohort (30–35 interns)
 3. **Q2-Q4:** 6-month paid internships with host mentorship
 4. **Q4:** Closing ceremony; certificates co-branded Dell + WIF; impact metrics
 
@@ -83,6 +83,6 @@ Each program can be sponsored independently or as a bundle. Tier 1 = Lab only. T
 | Item | Source doc | Dell proposal adaptation |
 |---|---|---|
 | Screenwriters Lab | Kolkata govt / IFFI framing | Reframed for Dell corporate sponsorship via EMG |
-| Internship | Kamla Mills / MIB funding ask | Reframed as Tier 3 component; USD pricing |
+| Internship | Kamla Mills / MIB funding ask | Standalone option; $200K/year USD pricing |
 | Exhibition | Rabia voice note only | Full first draft with PVR model and budget assumptions |
-| Pricing | INR government/foundation asks | USD tiered sponsorship; INR internal only |
+| Pricing | INR government/foundation asks | USD per-program options; INR internal only |

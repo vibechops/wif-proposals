@@ -99,9 +99,40 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
   color: var(--chrome-text);
 }
 
-/* Sans display override: swaps the serif headings for a modern grotesk. */
-html.font-sans {
-  --font-display: "Space Grotesk", "Inter", system-ui, -apple-system, sans-serif;
+.cover-toggle {
+  display: inline-flex;
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid var(--chrome-line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.cover-toggle__btn {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  font-family: var(--font-body);
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--chrome-muted, rgba(255, 255, 255, 0.55));
+  padding: 5px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.cover-toggle__btn:hover { color: var(--chrome-text); }
+.cover-toggle__btn.is-active {
+  background: rgba(255, 255, 255, 0.14);
+  color: var(--chrome-text);
+}
+
+/* Instrument Sans display override: swaps the serif headings for a modern grotesk. */
+html.font-instrument {
+  --font-display: "Instrument Sans", "Inter", system-ui, -apple-system, sans-serif;
 }
 
 /* ========== STAGE + A4 CANVAS ========== */
@@ -146,6 +177,58 @@ html.font-sans {
   background:
     radial-gradient(120% 80% at 50% -10%, rgba(255,255,255,0.5), transparent 60%),
     var(--paper);
+}
+
+/* Bold+ : subtle ember language carried onto the internal pages.
+   Single light bg is preserved; only a faint corner wash + ember
+   page furniture echoes the cover and closing art. */
+.page--accent > * {
+  position: relative;
+  z-index: 1;
+}
+/* Crisp ember corner wedge, echoing the angular sweep on the cover. */
+.page--accent::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 132px;
+  height: 132px;
+  background: linear-gradient(135deg, #d2755f 0%, var(--ember) 100%);
+  clip-path: polygon(0 0, 0 100%, 100% 100%);
+  pointer-events: none;
+  z-index: 0;
+}
+/* Soft ember wash bleeding up from the wedge. */
+.page--accent::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(
+    120% 120% at 0% 100%,
+    rgba(198, 84, 60, 0.16) 0%,
+    transparent 60%
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+.page--accent .runner {
+  border-bottom-color: rgba(198, 84, 60, 0.5);
+}
+.page--accent .runner__idx {
+  color: var(--ember);
+}
+.page--accent .runner__rule {
+  background: var(--ember);
+}
+.page--accent .folio {
+  border-top-color: rgba(198, 84, 60, 0.5);
+}
+.page--accent .kicker {
+  color: var(--ember);
 }
 
 .page-body { flex: 1; min-height: 0; display: flex; flex-direction: column; justify-content: center; }
@@ -385,6 +468,133 @@ html.font-sans {
   padding-left: 24px;
 }
 
+/* Bold cover (Danelec-inspired angular layout) */
+.page--cover-bold {
+  padding: 0;
+  background: var(--plum-deep);
+  color: var(--on-dark);
+  overflow: hidden;
+}
+
+.cb-bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.cb-art {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.cb-grain {
+  position: absolute;
+  inset: 0;
+  opacity: 0.16;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 200px 200px;
+}
+
+.page--cover-bold .cb-top {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 44px 56px 0;
+}
+
+.page--cover-bold .cb-eyebrow,
+.page--cover-bold .cb-tag {
+  font-size: var(--t-kicker);
+  font-weight: 600;
+  letter-spacing: var(--tr-kicker);
+  text-transform: uppercase;
+  color: var(--on-dark-soft);
+}
+
+.page--cover-bold .cb-title {
+  position: absolute;
+  z-index: 2;
+  top: 122px;
+  left: 56px;
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 82px;
+  font-weight: 500;
+  line-height: 0.96;
+  letter-spacing: var(--tr-display);
+  color: var(--on-dark);
+}
+
+.page--cover-bold .cb-blurb-wrap {
+  position: absolute;
+  z-index: 2;
+  right: 56px;
+  bottom: 188px;
+  display: flex;
+  gap: 16px;
+  max-width: 330px;
+}
+
+.page--cover-bold .cb-blurb-rule {
+  flex: none;
+  width: 2px;
+  border-radius: 1px;
+  background: var(--ember-soft);
+}
+
+.page--cover-bold .cb-blurb {
+  margin: 0;
+  font-size: 15px;
+  line-height: var(--lh-snug);
+  color: var(--on-dark);
+}
+
+.page--cover-bold .cb-foot {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 56px 52px;
+}
+
+.page--cover-bold .cb-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.page--cover-bold .cb-dell-logo {
+  height: 64px;
+}
+
+.page--cover-bold .cb-wif-logo { height: 48px; }
+
+.page--cover-bold .cb-sep {
+  font-size: 22px;
+  margin: 0;
+}
+
+.page--cover-bold .cb-year {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--on-dark-soft);
+}
+
 /* ============================================================
    PAGE 11 - CLOSING (vision)
    ============================================================ */
@@ -507,6 +717,112 @@ html.font-sans {
   color: var(--ember-soft);
   text-align: right;
   max-width: 14em;
+}
+
+/* Bold closing (bookends the bold cover) */
+.page--closing-bold {
+  padding: 0;
+  background: var(--plum-deep);
+  overflow: hidden;
+}
+
+.page--closing-bold .cb2-top {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 44px 56px 0;
+}
+
+.page--closing-bold .cb2-eyebrow {
+  font-size: var(--t-kicker);
+  font-weight: 600;
+  letter-spacing: var(--tr-kicker);
+  text-transform: uppercase;
+  color: var(--ember-soft);
+}
+
+.page--closing-bold .cb2-brand {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--on-dark-soft);
+}
+
+.page--closing-bold .cb2-hero {
+  position: absolute;
+  z-index: 2;
+  left: 56px;
+  right: 56px;
+  top: 50%;
+  transform: translateY(-54%);
+}
+
+.page--closing-bold .cb2-statement {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 58px;
+  font-weight: 500;
+  line-height: 1.02;
+  letter-spacing: var(--tr-display);
+  color: var(--on-dark);
+  max-width: 13em;
+}
+
+.page--closing-bold .cb2-statement em {
+  font-style: normal;
+  color: var(--ember-soft);
+}
+
+.page--closing-bold .cb2-cta {
+  margin: 28px 0 0;
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: var(--lh-snug);
+  color: var(--ember-soft);
+}
+
+.page--closing-bold .cb2-foot {
+  position: absolute;
+  z-index: 2;
+  left: 56px;
+  right: 56px;
+  bottom: 52px;
+}
+
+.page--closing-bold .cb2-stats {
+  display: flex;
+  gap: 48px;
+  padding-top: 22px;
+  border-top: 1px solid var(--hairline-dark);
+}
+
+.page--closing-bold .cb2-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.page--closing-bold .cb2-stat__value {
+  font-family: var(--font-display);
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--on-dark);
+}
+
+.page--closing-bold .cb2-stat__label {
+  font-size: var(--t-kicker);
+  font-weight: 600;
+  letter-spacing: var(--tr-kicker);
+  text-transform: uppercase;
+  color: var(--on-dark-faint);
 }
 
 /* ============================================================
@@ -930,8 +1246,8 @@ thead .cmp__feat {
 
 .budget-tiers {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
   margin-bottom: 24px;
 }
 
@@ -953,7 +1269,7 @@ thead .cmp__feat {
 
 .budget-tier__amount {
   font-family: var(--font-display);
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 500;
   line-height: 1;
   color: var(--plum);

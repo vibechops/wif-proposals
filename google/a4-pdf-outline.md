@@ -67,6 +67,7 @@ Minimal page-by-page outline for the proposal document. Build in Canva as A4.
 | Google Flow expert-led workshop + demo          | Yes                   | Yes                    |
 | Students + professionals networking             | Yes                   | Yes                    |
 | 16-week program (4 months)                      | Yes                   | Yes                    |
+| Online workshops                                | Yes                   | Yes                    |
 | National script call                            | No                    | Yes                    |
 | WIF script curation + filmmaker selection       | No                    | Yes                    |
 | AI Filmathon (14-day production in Flow)        | No                    | Yes                    |
@@ -154,7 +155,33 @@ Same roadshow. Script call opens Week 5 and runs through Week 12.
 | 15   | Jury review and shortlisting                                                                |
 | 16   | **Mumbai awards** (Top 3); program close                                                     |
 
-## Page 9 - Budget
+## Page 9 - Outreach
+
+Estimated audience across the seven selected film institutes, plus WIF India's communities. Student figures are research-based estimates, not confirmed headcounts.
+
+| City | Institute | Est. students |
+|---|---|---:|
+| Mumbai | Whistling Woods International | ~1,100 |
+| Pune | FTII or Symbiosis | ~350 or ~360 |
+| Kolkata | SRFTI or St. Xavier's | ~350 or ~170 |
+| Delhi | AAFT, Noida | ~1,500 |
+| Chennai | LV Prasad Film & TV Academy | ~250 |
+| Hyderabad | Annapurna College of Film & Media | ~350 |
+| Bangalore | Srishti Manipal Institute | ~1,500 |
+
+**Estimated students across 7 institutes: ~5,000**
+
+Three reach pillars:
+
+- **~5,000 film students** across 7 institutes (estimated)
+- **3,500 active professionals** in WIF India's member community
+- **36,000 social media** online community
+
+Note: student counts are estimates from institute intake and on-campus enrollment research, not confirmed headcounts. WIF member (3,500) and social (36,000) figures are current totals.
+
+---
+
+## Page 10 - Budget
 
 **WIF India program fee** (tiered by option):
 
@@ -177,7 +204,7 @@ Saved detail: `budget-outlook.md`
 
 ---
 
-## Page 10 - The ask
+## Page 11 - The ask
 
 At its core, this is a **Google + WIF roadshow** across 7 cities in India over 16 weeks.
 
@@ -189,7 +216,7 @@ At its core, this is a **Google + WIF roadshow** across 7 cities in India over 1
 
 ---
 
-## Page 11 - The vision (closing)
+## Page 12 - The vision (closing)
 
 **Google AI × WIF India**
 

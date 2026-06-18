@@ -8,16 +8,16 @@ Internal working doc. Built bottoms-up per program. FX: **$1 ≈ ₹85**. Tax mo
 
 ## 1. Executive summary (read this first)
 
-| | Tier 1 (Lab) | Tier 2 (Lab + Exhibition) | Tier 3 (All 3, Year 1) |
+| | Lab | Exhibition | Internship (annual) |
 |---|---:|---:|---:|
-| Recommended ask (USD) | $150,000 | $265,000 | $595,000 |
-| Fee in INR | ₹127.5L | ₹225.3L | ₹505.8L |
-| **Delivery cost (Base, INR)** | **₹110.4L** | **₹185.7L** | **₹436.0L** |
-| Gross profit | ₹17.1L | ₹39.6L | ₹69.8L |
-| Gross margin | ~13.4% | ~17.6% | ~13.8% |
-| **Net profit after tax (~25.17%)** | **~₹12.8L (~$15.1K)** | **~₹29.6L (~$34.8K)** | **~₹52.2L (~$61.4K)** |
+| Recommended ask (USD) | $150,000 | $150,000 | $200,000 |
+| Fee in INR | ₹127.5L | ₹127.5L | ₹170.0L |
+| **Delivery cost (Base, INR)** | **₹110.4L** | **₹75.3L** | **₹250.3L** |
+| Gross profit | ₹17.1L | ₹52.2L | **-₹80.3L** |
+| Gross margin | ~13.4% | ~40.9% | **below cost** |
+| **Net profit after tax (~25.17%)** | **~₹12.8L (~$15.1K)** | **~₹39.1L (~$46.0K)** | **loss** |
 
-**Headline:** Tier 1 is a relationship entry point with modest margin (~13%, improved by the shorter 3-day lab). Tier 2 and 3 carry healthier margin while scaling Dell's visible impact. Internship (Tier 3) adds the largest cost block but strongest employment narrative.
+**Headline:** Lab and Exhibition carry healthy margin at $150K each. Internship at $200K/year is **below delivery cost** (~$294K); flag for Rabia before client send. Dell or EMG selects **one** program, not a bundled tier.
 
 ---
 
@@ -80,45 +80,45 @@ Source: `../00-intake/Proposal for Kamla Mills Foundation - Internal .docx`
 | WIF India program fee | 52,50,000 (implied in ₹2.5 Cr total) |
 | **Internship annual total** | **₹250.3L (~₹2.5 Cr)** |
 
-35 interns Year 1 toward 100 over 3 years.
+30–35 interns per year at $200K/year ask.
 
 ---
 
-## 5. Tier cost stacks
+## 5. Per-program pricing summary
 
-| Tier | Programs included | Total delivery cost (INR) | Total delivery cost (USD) |
-|---|---|---:|---:|
-| Tier 1 | Lab | ₹110.4L | ~$130K |
-| Tier 2 | Lab + Exhibition | ₹185.7L | ~$218K |
-| Tier 3 | Lab + Exhibition + Internship Y1 | ₹436.0L | ~$513K |
+| Program | Delivery cost (INR) | Delivery cost (USD) | Ask (USD) | Margin |
+|---|---:|---:|---:|---|
+| Screenwriters Lab | ₹110.4L | ~$130K | $150,000 | ~15% above cost |
+| Exhibition | ₹75.3L | ~$88K | $150,000 | ~70% above cost |
+| Internship (annual) | ₹250.3L | ~$294K | $200,000 | **below cost** |
 
 ---
 
-## 6. Income model by tier
+## 6. Income model by program
 
-| | Tier 1 | Tier 2 | Tier 3 |
+| | Lab | Exhibition | Internship |
 |---|---:|---:|---:|
-| Fee (USD) | $150,000 | $265,000 | $595,000 |
-| Fee (INR) | ₹127.5L | ₹225.3L | ₹505.8L |
-| Less: delivery cost | ₹110.4L | ₹185.7L | ₹436.0L |
-| Gross profit | ₹17.1L | ₹39.6L | ₹69.8L |
-| Tax (~25.17%) | ₹4.3L | ₹10.0L | ₹17.6L |
-| Net profit | ₹12.8L | ₹29.6L | ₹52.2L |
+| Fee (USD) | $150,000 | $150,000 | $200,000 |
+| Fee (INR) | ₹127.5L | ₹127.5L | ₹170.0L |
+| Less: delivery cost | ₹110.4L | ₹75.3L | ₹250.3L |
+| Gross profit | ₹17.1L | ₹52.2L | -₹80.3L |
+| Tax (~25.17%) | ₹4.3L | ₹13.1L | n/a |
+| Net profit | ₹12.8L | ₹39.1L | loss |
 
 ---
 
-## 7. Multi-year view (Tier 3 full commitment)
+## 7. Multi-year view (Internship extension)
 
-If Dell commits to 3-year internship (100 women total):
+If Dell commits to multi-year internship:
 
-| Year | Programs running | Annual Dell ask (USD) |
+| Year | Scope | Annual Dell ask (USD) |
 |---|---|---:|
-| Year 1 | Lab + Exhibition + Internship | $595,000 |
-| Year 2 | Exhibition + Internship | $445,000 |
-| Year 3 | Exhibition + Internship | $445,000 |
-| **3-year total** | | **~$1,485,000** |
+| Year 1 | Internship (30–35 women) | $200,000 |
+| Year 2 | Internship (30–35 women) | $200,000 |
+| Year 3 | Internship (30–35 women) | $200,000 |
+| **3-year total** | | **$600,000** |
 
-Year 2-3 drops Lab (one-time) but continues Exhibition + Internship.
+Lab and Exhibition are priced independently if Dell sponsors those programs in other years.
 
 ---
 
@@ -133,6 +133,7 @@ Year 2-3 drops Lab (one-time) but continues Exhibition + Internship.
 
 ## 9. Recommendation
 
-- Lead with **Tier 2** ($265K) as the recommended entry: Lab + Exhibition gives Dell visible impact across development and distribution without the $595K Year 1 commitment.
-- **Tier 1** ($150K) for budget-conscious first engagement; upsell Exhibition in Year 2.
-- **Tier 3** ($595K) for Dell wanting maximum impact narrative: writers + screens + jobs in one partnership year.
+- Present **three independent options**; Dell or EMG selects one
+- **Lab ($150K)** and **Exhibition ($150K)** are both viable at healthy margin
+- **Internship ($200K/year)** is below delivery cost; use only with Rabia sign-off or scope adjustment
+- Do not bundle programs into tier packages ($265K / $595K model retired)

@@ -77,7 +77,7 @@ Partner-specific research stubs. Expand before client send.
 ## Open research items
 
 1. Confirm Exhibition assumptions with Rabia (films/year, PVR terms)
-2. Dell budget range from EMG (before finalizing tier recommendation)
+2. Dell budget range from EMG (before finalizing program selection)
 3. Sikhya / Raonaq scope and how to present alongside WIF programs
 4. Mentor availability confirmations for Screenwriters Lab
 5. Festival tie-up partner for Lab Part 2

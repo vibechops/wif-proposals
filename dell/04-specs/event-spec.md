@@ -6,11 +6,11 @@ One page per program. Answer these with WIF before final deck. Exhibition sectio
 
 ## 0. Consolidated program overview
 
-| Program | In scope? | Dell tier |
+| Program | In scope? | Standalone option |
 |---|---|---|
-| 1. Screenwriters Residency Lab | Yes | Tier 1+ |
-| 2. Exhibition Program | Yes | Tier 2+ |
-| 3. Internship Program | Yes | Tier 3 |
+| 1. Screenwriters Residency Lab | Yes | $150,000 |
+| 2. Exhibition Program | Yes | $150,000 |
+| 3. Internship Program | Yes | $200,000 / year |
 
 ---
 
@@ -169,7 +169,7 @@ Source: adapted from `../00-intake/Proposal for Kamla Mills Foundation - Interna
 
 | | Dell (via EMG) | WIF India |
 |---|---|---|
-| Program sponsorship | USD tiered funding | Full program delivery |
+| Program sponsorship | USD (one program selected) | Full program delivery |
 | Brand / logo | Presenting Partner status | Co-branded production |
 | In-film product placement | Via Sikhya / Raunaq (separate) | Introduction only |
 | Mentors | Optional attendance | Curated roster + advisory board |
@@ -193,7 +193,7 @@ Source: adapted from `../00-intake/Proposal for Kamla Mills Foundation - Interna
 
 ## 6. Open decisions (all programs)
 
-1. Which tier does Dell sponsor (1 / 2 / 3)?
+1. Which program does Dell sponsor (Lab / Exhibition / Internship)?
 2. Multi-year internship commitment (3 years) vs Year 1 pilot
 3. Exhibition draft assumptions: confirm with Rabia
 4. In-film branding timeline with Sikhya / Raunaq

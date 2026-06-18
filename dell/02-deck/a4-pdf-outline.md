@@ -3,8 +3,8 @@
 Minimal page-by-page outline for the consolidated proposal document.
 
 **Working title:** WIF India x Dell
-**Format:** A4, ~12 pages
-**Tone:** Impact-led, scannable, three programs with clear tier options. Corporate sponsorship framing.
+**Format:** A4, ~16 pages
+**Tone:** Impact-led, scannable, three independent program options. Corporate sponsorship framing.
 
 ---
 
@@ -21,14 +21,14 @@ Minimal page-by-page outline for the consolidated proposal document.
 ## Page 2 - In one sentence
 
 - WIF India proposes a consolidated partnership with Dell across three programs: developing women screenwriters, exhibiting women-led films on screens nationwide, and placing young women in paid internships across the Indian film industry.
-- Dell chooses sponsorship depth via three tiers, from $150K to $595K.
+- Dell selects **one** of three independent programs.
 
 ---
 
 ## Page 3 - The problem
 
 - India produces 2,500+ films a year
-- Women's participation in key disciplines: under 10%
+- Women's participation in key disciplines remains low
 - The gap is not talent. It is access: to mentorship, distribution, and employment
 - WIF India builds the infrastructure. Dell can be the Presenting Partner.
 
@@ -48,13 +48,15 @@ Minimal page-by-page outline for the consolidated proposal document.
 
 ---
 
-## Page 5 - Three programs overview
+## Page 5 - Three opportunities overview
+
+**Three opportunities to create impact**
 
 | Program | What Dell funds | Outcome |
 |---|---|---|
 | Screenwriters Residency Lab | Feature film development | 6 scripts, festival showcase |
 | Exhibition Program | Distribution via PVR | 6 films, 90-120 screenings |
-| Internship Program | Paid employment pipeline | 35 women placed (Year 1) |
+| Internship Program | Paid employment pipeline | 30–35 women placed per year |
 
 ---
 
@@ -84,55 +86,70 @@ Minimal page-by-page outline for the consolidated proposal document.
 
 - 6-month paid internships, ₹25,000/month stipend
 - 10+ departments across film, TV, OTT
-- 35 women Year 1; 100 over 3 years
+- 30–35 women per year; optional multi-year extension at $200K/year
 - Travel support, host mentorship, co-branded certificates
 - Closing ceremony with Dell representative invited
 
 ---
 
-## Page 9 - Sponsorship tiers
+## Page 9 - Timeline: Screenwriters Lab
 
-| Tier | Programs | Investment |
-|---|---|---:|
-| Tier 1 | Screenwriters Lab | $150,000 |
-| Tier 2 | Lab + Exhibition | $265,000 |
-| Tier 3 | Lab + Exhibition + Internship (Y1) | $595,000 |
+*~24 weeks from launch. Week ranges are relative to program start, not fixed dates.*
 
-Recommended: Tier 2
-
-Multi-year option: ~$1.485M over 3 years for full 100-internship pipeline.
+- **Applications** (Weeks 1–8): Pan-India open call; shortlist of 50
+- **Selection** (Weeks 9–12): Final 6 writers confirmed
+- **Residential lab** (Weeks 13–18): 3-day lab in Kolkata / Darjeeling; 6 writers, 6 mentors
+- **Festival showcase** (Weeks 19–24): Industry pitching and showcase
 
 ---
 
-## Page 10 - Dell brand visibility
+## Page 10 - Timeline: Exhibition Program
 
-- Presenting Partner across all sponsored programs
-- Logo on materials, events, credits, certificates
-- Festival credits and screening slates
-- Annual impact report: writers mentored, films screened, women placed
-- In-film branding introduction via Sikhya / Raonaq (parallel track)
+*~28 weeks from launch. Week ranges are relative to program start, not fixed dates.*
 
----
-
-## Page 11 - Timeline (Year 1)
-
-Visual quarter-by-quarter across all three programs (see deck slide 11).
-
-Q1: Applications, film curation, intern recruitment
-Q2: Treatments, first premieres, internships begin
-Q3: Residential lab, rolling screenings
-Q4: Festival showcase, closing ceremony, impact report
+- **Film curation** (Weeks 1–6): Curate slate of 6 women-centric / women-led films
+- **PVR partnership** (Weeks 7–12): Secure PVR partnership (15-20 screenings per film, 6 cities)
+- **Rolling premieres** (Weeks 13–28): Understated premieres across 6 cities; awareness over glamour
 
 ---
 
-## Page 12 - The ask + next steps
+## Page 11 - Timeline: Internship Program
 
-**Recommended: Tier 2 at USD $265,000**
+*~32 weeks from launch. Week ranges are relative to program start, not fixed dates.*
+
+- **Partner recruitment** (Weeks 1–4): Partner with 10+ production houses, OTT platforms, and channels
+- **Cohort placement** (Weeks 5–8): Recruit and place cohort of 30–35 interns
+- **Internships in progress** (Weeks 9–30): 6-month paid internships; host mentorship and travel support
+- **Closing ceremony** (Weeks 31–32): Co-branded certificates (Dell + WIF); impact metrics and annual report
+
+---
+
+## Page 12 - Program options
+
+| Program | Investment |
+|---|---:|
+| Screenwriters Residency Lab | $150,000 |
+| Exhibition Program | $150,000 |
+| Internship Program | $200,000 / year |
+
+Full program design, delivery, and on-ground management (per selected program).
+
+Internship multi-year: $200K/year per cohort (30–35 women).
+
+---
+
+## Page 13 - The ask + next steps
+
+**Dell selects one program:**
+
+- Screenwriters Lab: USD $150,000
+- Exhibition Program: USD $150,000
+- Internship Program: USD $200,000 / year
 
 **From Dell:** Sponsorship, Presenting Partner status, optional event attendance
 **From WIF:** Full delivery, impact reporting, Sikhya / Raonaq introduction
 **Next steps:**
-1. Dell selects tier
+1. Dell selects program
 2. WIF finalizes Exhibition assumptions with Rabia
 3. EMG presents to Dell for approval
 4. Program launch Q3 2026 (or aligned to Lab timeline)

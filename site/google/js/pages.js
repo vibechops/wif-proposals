@@ -146,6 +146,7 @@ window.PROPOSAL_PAGES = [
         ["Google Flow expert-led workshop", true, true],
         ["Students + professionals networking", true, true],
         ["16-week program", true, true],
+        ["Online workshops", true, true],
         ["National short film call for submissions", false, true],
         ["WIF script curation + filmmaker selection", false, true],
         ["AI Filmathon (14-day production in Flow)", false, true],
@@ -283,6 +284,32 @@ window.PROPOSAL_PAGES = [
   },
   {
     id: 11,
+    title: "Outreach",
+    template: "outreach",
+    data: {
+      heading: "Outreach",
+      lead: "Estimated audience across the seven selected film institutes, plus WIF India's professional and social communities. Student figures are research-based estimates, not confirmed headcounts.",
+      colleges: [
+        { city: "Mumbai", institute: "Whistling Woods International", students: "~1,100" },
+        { city: "Pune", institute: "FTII or Symbiosis", students: "~350 <span class=\"reach__or\">or</span> ~360" },
+        { city: "Kolkata", institute: "SRFTI or St. Xavier's", students: "~350 <span class=\"reach__or\">or</span> ~170" },
+        { city: "Delhi", institute: "AAFT, Noida", students: "~1,500" },
+        { city: "Chennai", institute: "LV Prasad Film & TV Academy", students: "~250" },
+        { city: "Hyderabad", institute: "Annapurna College of Film & Media", students: "~350" },
+        { city: "Bangalore", institute: "Srishti Manipal Institute", students: "~1,500" },
+      ],
+      totalLabel: "Estimated students across 7 institutes",
+      totalValue: "~5,000",
+      pillars: [
+        { value: "~5,000", label: "Film students", sub: "Across 7 institutes (estimated)", accent: true },
+        { value: "3,500", label: "Active professionals", sub: "WIF India member community" },
+        { value: "36,000", label: "Social media", sub: "WIF India online community" },
+      ],
+      note: "Student counts are estimates drawn from institute intake and on-campus enrollment research, not confirmed headcounts. WIF India's member (3,500) and social media (36,000) figures are current community totals.",
+    },
+  },
+  {
+    id: 12,
     title: "Budget",
     template: "budget",
     data: {
@@ -304,7 +331,7 @@ window.PROPOSAL_PAGES = [
     },
   },
   {
-    id: 12,
+    id: 13,
     title: "The ask",
     template: "ask",
     data: {
@@ -318,7 +345,7 @@ window.PROPOSAL_PAGES = [
     },
   },
   {
-    id: 13,
+    id: 14,
     title: "The vision",
     template: "closing",
     data: {

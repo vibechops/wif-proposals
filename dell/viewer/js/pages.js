@@ -9,6 +9,8 @@ window.PROPOSAL_PAGES = [
       subtitle: "Get More Women More Jobs",
       meta: "Presented via EMG",
       date: "2026",
+      blurb:
+        "WIF India and Dell, partnering to develop women screenwriters, put women-led films on screens, and place young women in paid film jobs.",
     },
   },
   {
@@ -30,7 +32,7 @@ window.PROPOSAL_PAGES = [
         { no: "02", title: "Distribute", text: "Exhibition Program: women-led films across PVR screens." },
         { no: "03", title: "Employ", text: "Internship Program: paid placements for young women." },
       ],
-      footer: "Dell chooses sponsorship depth across three tiers, from USD $150K to $595K.",
+      footer: "Dell selects one of three independent programs.",
     },
   },
   {
@@ -41,7 +43,7 @@ window.PROPOSAL_PAGES = [
       kicker: "Why now",
       heading: "The opportunity",
       items: [
-        "India produces over 2,500 films a year, yet women's participation in key disciplines remains under 10%.",
+        "India produces over 2,500 films a year, yet women's participation in key disciplines remains low.",
         "The gap is not talent. It is access: to mentorship, to distribution, and to paid work inside an often opaque, male-dominated industry.",
         "WIF India builds the infrastructure to change that. Dell can be the Presenting Partner across development, distribution, and employment.",
       ],
@@ -57,9 +59,9 @@ window.PROPOSAL_PAGES = [
         {
           title: "Leadership",
           items: [
-            "Founded by Guneet Monga Kapoor, Oscar-winning producer (The Elephant Whisperers)",
+            "Founded by Guneet Monga Kapoor, Oscar-winning producer",
             "Mentored by WIF LA, a globally recognized advocacy body for women in film",
-            "Rabia Chopra, Director: leads program management, partnerships, and industry engagement",
+            "Rabia Chopra, Director: leads partnerships and industry engagement",
           ],
         },
         {
@@ -67,14 +69,14 @@ window.PROPOSAL_PAGES = [
           items: [
             "3,500+ member national community across film, TV, and digital media",
             "Advisory board of 17 industry leaders across film, media, policy, and corporate sectors",
-            "Consistent Cannes presence, where the EMG and Dell relationship began",
+            "Consistent Cannes presence, where the Dell relationship began",
           ],
         },
         {
           title: "Why WIF fits this partnership",
           items: [
             "Existing relationships with film institutes and production houses nationwide",
-            "Proven track record running labs, networking events, and industry programs",
+            "Proven track record of networking events and industry programs",
             "Credible bridge between Dell's brand and India's women-in-film movement",
           ],
         },
@@ -141,28 +143,28 @@ window.PROPOSAL_PAGES = [
     title: "Three programs",
     template: "sections",
     data: {
-      kicker: "The partnership",
-      heading: "Three programs, one partnership",
+      kicker: "The opportunities",
+      heading: "Three opportunities to create impact",
       sections: [
         {
-          title: "01 — Screenwriters Residency Lab",
+          title: "01 - Screenwriters Residency Lab",
           items: [
             "Develops 6 feature film scripts with 6 high-profile mentors",
             "Outcome: festival showcase and industry pitching for women writers",
           ],
         },
         {
-          title: "02 — Exhibition Program",
+          title: "02 - Exhibition Program",
           items: [
             "Distributes women-led films via a PVR cinema partnership",
             "Outcome: 6 films, roughly 90-120 screenings across major cities",
           ],
         },
         {
-          title: "03 — Internship Program",
+          title: "03 - Internship Program",
           items: [
             "Places young women in 6-month paid internships across 10+ departments",
-            "Outcome: 35 women in Year 1, building toward 100 over three years",
+            "Outcome: 30–35 women placed per year",
           ],
         },
       ],
@@ -247,7 +249,7 @@ window.PROPOSAL_PAGES = [
           items: [
             "6-month paid internships, \u20b925,000/month stipend",
             "10+ departments: Direction, Writing, Editing, Production, Cinematography, OTT, and more",
-            "35 women in Year 1, building toward 100 over three years",
+            "30–35 women per year; optional multi-year extension at $200K/year",
           ],
         },
         {
@@ -269,45 +271,132 @@ window.PROPOSAL_PAGES = [
   },
   {
     id: 11,
-    title: "Sponsorship tiers",
-    template: "budget",
+    title: "Timeline, Screenwriters Lab",
+    template: "timeline",
     data: {
-      kicker: "The investment",
-      heading: "Sponsorship tiers",
-      label: "Dell sponsorship, tiered by program",
-      tiers: [
-        { tag: "Tier 1", amount: "USD $150,000", plus: "Screenwriters Lab", desc: "Feature film development for 6 women writers." },
-        { tag: "Tier 2", amount: "USD $265,000", plus: "Lab + Exhibition", desc: "Recommended. Adds women-led films on screens via PVR." },
-        { tag: "Tier 3", amount: "USD $595,000", plus: "All three programs", desc: "Adds 35 paid internships in Year 1." },
+      optionTag: "Screenwriters Lab",
+      intro: "~24 weeks from launch · Open call to festival showcase.",
+      phases: [
+        {
+          label: "Applications",
+          range: "Weeks 1–8",
+          items: ["Pan-India open call", "Shortlist of 50"],
+        },
+        {
+          label: "Selection",
+          range: "Weeks 9–12",
+          items: ["Final 6 writers confirmed"],
+        },
+        {
+          label: "Residential lab",
+          range: "Weeks 13–18",
+          items: ["3-day lab in Kolkata / Darjeeling", "6 writers, 6 mentors"],
+        },
+        {
+          label: "Festival showcase",
+          range: "Weeks 19–24",
+          items: ["Industry pitching and showcase"],
+        },
       ],
-      lead: "Dell can support one program, two, or all three. Each tier unlocks additional programs and visibility. WIF designs, delivers, and reports on every program end to end.",
-      covers: [
-        "Full program design, delivery, and on-ground management",
-        "Mentor curation, PVR partnership, and internship placements",
-        "Presenting Partner branding across all sponsored programs",
-        "Annual impact report: writers mentored, films screened, women placed",
-      ],
-      note: "Multi-year option: roughly USD $1.485M over three years funds the full 100-internship pipeline. In-film branding (via Sikhya / Raonaq) is a separate, parallel track.",
     },
   },
   {
     id: 12,
+    title: "Timeline, Exhibition Program",
+    template: "timeline",
+    data: {
+      optionTag: "Exhibition Program",
+      intro: "~28 weeks from launch · Curation to rolling premieres.",
+      phases: [
+        {
+          label: "Film curation",
+          range: "Weeks 1–6",
+          items: ["Curate slate of 6 women-centric / women-led films"],
+        },
+        {
+          label: "PVR partnership",
+          range: "Weeks 7–12",
+          items: ["Secure PVR partnership (15-20 screenings per film, 6 cities)"],
+        },
+        {
+          label: "Rolling premieres",
+          range: "Weeks 13–28",
+          items: ["Understated premiere format across Mumbai, Delhi, Bangalore, Kolkata, Chennai, Hyderabad", "Awareness and exposure over glamour"],
+        },
+      ],
+    },
+  },
+  {
+    id: 13,
+    title: "Timeline, Internship Program",
+    template: "timeline",
+    data: {
+      optionTag: "Internship Program",
+      intro: "~32 weeks from launch · Recruitment to closing ceremony.",
+      phases: [
+        {
+          label: "Partner recruitment",
+          range: "Weeks 1–4",
+          items: ["Partner with 10+ production houses, OTT platforms, and channels"],
+        },
+        {
+          label: "Cohort placement",
+          range: "Weeks 5–8",
+          items: ["Recruit and place cohort of 30–35 interns"],
+        },
+        {
+          label: "Internships in progress",
+          range: "Weeks 9–30",
+          items: ["6-month paid internships across 10+ departments", "Host mentorship, travel support, and on-the-job training"],
+        },
+        {
+          label: "Closing ceremony",
+          range: "Weeks 31–32",
+          items: ["Co-branded certificates (Dell + WIF)", "Impact metrics and annual report"],
+        },
+      ],
+    },
+  },
+  {
+    id: 14,
+    title: "Program options",
+    template: "budget",
+    data: {
+      kicker: "The investment",
+      heading: "Choose a program",
+      label: "Dell sponsorship, one program",
+      tiers: [
+        { tag: "Screenwriters Lab", amount: "USD $150,000", plus: "One-time program cycle", desc: "Feature film development for 6 women writers; 3-day residential lab." },
+        { tag: "Exhibition Program", amount: "USD $150,000", plus: "Annual program", desc: "Women-led films on screens via PVR; ~90–120 screenings." },
+        { tag: "Internship Program", amount: "USD $200,000", plus: "/ year", desc: "30–35 paid internships across 10+ film departments." },
+      ],
+      covers: [
+        "Full program design, delivery, and on-ground management",
+        "Mentor curation, PVR partnership, or internship placements (per program)",
+        "Presenting Partner branding across the sponsored program",
+        "Annual impact report: writers mentored, films screened, or women placed",
+      ],
+      note: "Internship multi-year: $200K/year per cohort (30–35 women). In-film branding (via Sikhya / Raonaq) is a separate, parallel track.",
+    },
+  },
+  {
+    id: 15,
     title: "The ask",
     template: "ask",
     data: {
       kicker: "The decision",
       heading: "The ask",
       colLabel: "What we ask of Dell",
-      lead: "Recommended: Tier 2 at USD $265,000, the Lab plus the Exhibition Program, for visible impact across development and distribution.",
+      lead: "Select one program: Screenwriters Lab ($150K), Exhibition ($150K), or Internship ($200K/year).",
       ask: [
-        "Select a sponsorship tier (1, 2, or 3)",
-        "Presenting Partner status across the sponsored programs",
+        "Select one program to sponsor",
+        "Presenting Partner status across the sponsored program",
         "Optional: a Dell representative at key events and premieres",
       ],
     },
   },
   {
-    id: 13,
+    id: 16,
     title: "The vision",
     template: "closing",
     data: {
@@ -317,11 +406,6 @@ window.PROPOSAL_PAGES = [
         { t: "Get more women more jobs, and together, " },
         { t: "change the story", em: true },
         { t: " of who makes Indian cinema." },
-      ],
-      stats: [
-        { value: "6", label: "scripts developed" },
-        { value: "6", label: "films on screens" },
-        { value: "35", label: "women placed" },
       ],
       close: "Let's build the<br>infrastructure together.",
     },

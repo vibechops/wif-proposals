@@ -14,20 +14,20 @@ Updated after Rabia intake (Jun 2026). Lead via **EMG** (London brand placement 
 | Lab program design | **Confirmed** (see intake PDFs) |
 | Internship program design | **Confirmed** (see Kamla Mills doc) |
 | Exhibition program design | **Draft** (built from Rabia notes; assumptions flagged) |
-| Dell sponsorship currency | **USD**, tiered by number of programs sponsored |
+| Dell sponsorship currency | **USD**, one program selected per sponsorship |
 
 ## Program shape
 
-A **consolidated WIF India x Dell sponsorship** spanning three impact programs under one brand partnership. Dell gains visibility across development (Screenwriters Lab), employment (Internship Program), and distribution (Exhibition Program). Programs can run in parallel; Dell chooses sponsorship depth via tier.
+A **consolidated WIF India x Dell sponsorship** spanning three impact programs under one brand partnership. Dell gains visibility across development (Screenwriters Lab), employment (Internship Program), and distribution (Exhibition Program). **Dell or EMG selects one of three independent programs** to sponsor.
 
-**Narrative hook:** India produces 2,500+ films a year, yet women's participation in key disciplines remains under 10%. WIF India builds the infrastructure to change that: Get More Women More Jobs.
+**Narrative hook:** India produces 2,500+ films a year, yet women's participation in key disciplines remains low. WIF India builds the infrastructure to change that: Get More Women More Jobs.
 
 ## Three programs
 
 | # | Program | Summary |
 |---|---|---|
 | 1 | **Screenwriters Residency Lab** | Genre-based, pan-India feature film development lab; 6 scripts, 6 mentors, residential workshop (Kolkata/Darjeeling), festival tie-up |
-| 2 | **Internship Program** | 100 women over 3 years; 6-month paid internships across 10+ departments; stipends, travel, mentorship |
+| 2 | **Internship Program** | 30–35 women per year; 6-month paid internships across 10+ departments; stipends, travel, mentorship |
 | 3 | **Exhibition Program** | WIF as distribution channel for women-centric / women-led films; PVR partnership; 15-20 screenings per film; understated premiere events |
 
 See `../04-specs/program-flow.md` for flowchart and Dell branding integration.
@@ -61,16 +61,16 @@ See `../04-specs/program-flow.md` for flowchart and Dell branding integration.
 | Program | Internal cost (Base) | Notes |
 |---|---:|---|
 | Screenwriters Lab | ₹1.10 Cr | One-time program cycle (3-day) |
-| Internship Program | ₹2.5 Cr / year | 35 interns/year toward 100 over 3 years |
+| Internship Program | ₹2.5 Cr / year | 30–35 interns/year |
 | Exhibition Program | ₹75 L / year | **Draft estimate**; pending Rabia review |
 
-Client-facing USD tiers: `../03-budget/budget-outlook.md`
+Client-facing USD program options: `../03-budget/budget-outlook.md`
 
 ## What Dell provides vs WIF
 
 | | Dell (via EMG) | WIF India |
 |---|---|---|
-| Program sponsorship (USD) | Yes (tiered by program count) | Program design, delivery, reporting |
+| Program sponsorship (USD) | Yes (one program selected) | Program design, delivery, reporting |
 | In-film branding | Via Sikhya / Raunaq (parallel track) | Introduction only |
 | Brand visibility | Logo on materials, events, credits, impact reports | Co-branded production across all programs |
 | Mentors / industry access | Optional amplification | Curated mentor roster, advisory board, placements |
@@ -78,17 +78,17 @@ Client-facing USD tiers: `../03-budget/budget-outlook.md`
 | Distribution / exhibition | No | Yes (PVR partnership, screening program) |
 | Employment placements | No | Yes (internship pipeline, host companies) |
 
-## Program sponsorship (USD tiers)
+## Program sponsorship (USD options)
 
-Presented to Dell as sponsorship levels. INR cost models stay internal.
+Three independent programs. Dell or EMG selects **one**. INR cost models stay internal.
 
-| Tier | Programs | Recommended ask |
-|---|---|---:|
-| **Tier 1** | Screenwriters Residency Lab only | **USD $150,000** |
-| **Tier 2** | Lab + Exhibition Program | **USD $265,000** |
-| **Tier 3** | Lab + Exhibition + Internship (Year 1) | **USD $595,000** |
+| Program | Recommended ask |
+|---|---:|
+| **Screenwriters Residency Lab** | **USD $150,000** (one-time program cycle) |
+| **Exhibition Program** | **USD $150,000** |
+| **Internship Program** | **USD $200,000 / year** (30–35 women placed that year) |
 
-Multi-year internship: Tier 3 Year 1 includes first cohort year; Years 2-3 priced separately (~$300K/yr). Detail: `../03-budget/pricing-recommendation.md`
+Multi-year internship: $200K/year per cohort; optional follow-on years. Detail: `../03-budget/pricing-recommendation.md`
 
 ## Reach
 
@@ -119,7 +119,7 @@ dell/
 ## Open items
 
 - Exhibition Program: confirm films/year, PVR terms, city rollout (draft assumptions in `event-spec.md`)
-- Dell budget range and preferred tier (1 / 2 / 3)
+- Dell budget range and preferred program (Lab / Exhibition / Internship)
 - Multi-year internship commitment vs single-year pilot
 - In-film branding scope with Sikhya / Raunaq vs WIF program sponsorship
 - EMG approval timeline and Dell US/global sign-off process

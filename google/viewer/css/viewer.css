@@ -946,6 +946,134 @@ thead .cmp__feat {
 }
 
 /* ============================================================
+   OUTREACH - audience & reach
+   ============================================================ */
+.outreach-lead {
+  font-size: 16px;
+  line-height: var(--lh-snug);
+  color: var(--ink-soft);
+  max-width: 42em;
+  margin-bottom: 26px;
+}
+
+.reach {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+.reach th {
+  font-size: var(--t-label);
+  font-weight: 700;
+  letter-spacing: var(--tr-label);
+  text-transform: uppercase;
+  color: var(--ember);
+  text-align: left;
+  padding: 0 0 10px;
+  border-bottom: 1px solid var(--hairline-strong);
+}
+
+.reach td {
+  padding: 11px 0;
+  font-size: 15px;
+  line-height: var(--lh-snug);
+  color: var(--ink);
+  border-bottom: 1px solid var(--hairline);
+  vertical-align: baseline;
+}
+
+.reach__city {
+  width: 22%;
+  font-weight: 600;
+  color: var(--plum);
+}
+
+.reach__inst { color: var(--ink-soft); }
+
+.reach__num {
+  width: 30%;
+  text-align: right;
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--plum);
+  white-space: nowrap;
+}
+
+.reach__or {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 500;
+  font-style: italic;
+  color: var(--ink-faint);
+  padding: 0 3px;
+}
+
+.reach__total td {
+  border-bottom: none;
+  border-top: 2px solid var(--plum);
+  padding-top: 14px;
+}
+
+.reach__total .reach__city {
+  font-size: var(--t-label);
+  font-weight: 700;
+  letter-spacing: var(--tr-label);
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.reach__total .reach__num {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--ember);
+}
+
+.reach-pillars {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.reach-pillar {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 18px 18px 20px;
+  border: 1px solid var(--hairline);
+  border-top: 3px solid var(--hairline-strong);
+  border-radius: 3px;
+  background: var(--paper-2);
+}
+
+.reach-pillar--accent { border-top-color: var(--ember); }
+
+.reach-pillar__value {
+  font-family: var(--font-display);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--plum);
+}
+
+.reach-pillar--accent .reach-pillar__value { color: var(--ember); }
+
+.reach-pillar__label {
+  font-size: var(--t-label);
+  font-weight: 700;
+  letter-spacing: var(--tr-label);
+  text-transform: uppercase;
+  color: var(--ink);
+  margin-top: 4px;
+}
+
+.reach-pillar__sub {
+  font-size: 12.5px;
+  line-height: var(--lh-snug);
+  color: var(--ink-soft);
+}
+
+/* ============================================================
    PAGES 7 + 8 - TIMELINE SPINE
    ============================================================ */
 .tl-intro {
