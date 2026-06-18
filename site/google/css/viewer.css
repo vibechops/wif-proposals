@@ -45,6 +45,13 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
   gap: 0.35rem;
 }
 
+.viewer-nav__sep {
+  width: 1px;
+  height: 1.25rem;
+  background: var(--chrome-line);
+  margin: 0 0.2rem;
+}
+
 .nav-btn {
   display: inline-flex;
   align-items: center;
@@ -61,6 +68,13 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
 
 .nav-btn:hover:not(:disabled) { background: rgba(255, 255, 255, 0.12); }
 .nav-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+
+a.nav-btn { text-decoration: none; }
+
+.nav-btn--home svg {
+  display: block;
+  opacity: 0.9;
+}
 
 /* ========== STAGE + A4 CANVAS ========== */
 .stage {

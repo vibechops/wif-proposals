@@ -7,18 +7,22 @@
   <title>Dell × WIF India</title>
   <link rel="stylesheet" href="css/fonts.css?v=4">
   <link rel="stylesheet" href="css/tokens.css?v=9">
-  <link rel="stylesheet" href="css/viewer.css?v=62">
+  <link rel="stylesheet" href="css/viewer.css?v=64">
 </head>
 <body>
   <div class="viewer">
     <header class="viewer-header">
       <span class="viewer-brand">Dell × WIF India</span>
-      <div class="viewer-tools">
-        <nav class="viewer-nav" aria-label="Page navigation">
-          <button class="nav-btn" id="btn-prev" type="button" aria-label="Previous page" title="Previous (←)">←</button>
-          <button class="nav-btn" id="btn-next" type="button" aria-label="Next page" title="Next (→)">→</button>
-        </nav>
-      </div>
+      <nav class="viewer-nav" aria-label="Viewer navigation">
+        <a href="/" class="nav-btn nav-btn--home" aria-label="Back to home" title="Home">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+            <path d="M2 6.5L7 2.5L12 6.5V11.5C12 11.7761 11.7761 12 11.5 12H8.5V9H5.5V12H2.5C2.22386 12 2 11.7761 2 11.5V6.5Z" stroke="currentColor" stroke-width="1.25" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <span class="viewer-nav__sep" aria-hidden="true"></span>
+        <button class="nav-btn" id="btn-prev" type="button" aria-label="Previous page" title="Previous (←)">←</button>
+        <button class="nav-btn" id="btn-next" type="button" aria-label="Next page" title="Next (→)">→</button>
+      </nav>
     </header>
 
     <main class="stage" id="stage" aria-live="polite"></main>

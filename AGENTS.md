@@ -30,6 +30,7 @@ Unless the user says otherwise, **only edit files inside the active client folde
 - **Cross-links:** Use relative paths between files in the same client folder
 - **Intake vs brief:** Keep raw Rabia notes separate from `project.md`
 - **Internal vs client-facing:** Credit line items and margin analysis stay in `03-budget/`, not deck slides
+- **Viewer header:** Every `{client}/viewer/index.html` includes a home link (`href="/"`) in the header nav, before prev/next. Not on `site/index.html` (the hub).
 
 ## Starting a new client
 
