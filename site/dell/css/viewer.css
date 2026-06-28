@@ -609,6 +609,120 @@ html.font-instrument {
   color: var(--on-dark-soft);
 }
 
+/* Mesh gradient cover (?cover=mesh). Image used as-is (full sign). Default SVG unchanged. */
+.page--cover-mesh {
+  padding: 0;
+  overflow: hidden;
+}
+
+.page--cover-mesh .cb-bg {
+  position: absolute;
+  inset: 0;
+}
+
+.page--cover-mesh .cm-sign {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.page--cover-mesh .cb-top {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 44px 56px 0;
+}
+
+.page--cover-mesh .cb-eyebrow {
+  font-size: var(--t-kicker);
+  font-weight: 600;
+  letter-spacing: var(--tr-kicker);
+  text-transform: uppercase;
+  color: var(--on-dark-soft);
+}
+
+.page--cover-mesh .cb-tag {
+  font-size: var(--t-kicker);
+  font-weight: 600;
+  letter-spacing: var(--tr-kicker);
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.page--cover-mesh .cb-title {
+  position: absolute;
+  z-index: 2;
+  top: 122px;
+  left: 56px;
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 82px;
+  font-weight: 500;
+  line-height: 0.96;
+  letter-spacing: var(--tr-display);
+  color: var(--on-dark);
+}
+
+.page--cover-mesh .cb-blurb-wrap {
+  position: absolute;
+  z-index: 2;
+  right: 56px;
+  bottom: 188px;
+  display: flex;
+  gap: 16px;
+  max-width: 330px;
+}
+
+.page--cover-mesh .cb-blurb-rule {
+  flex: none;
+  width: 2px;
+  border-radius: 1px;
+  background: var(--ember);
+}
+
+.page--cover-mesh .cb-blurb {
+  margin: 0;
+  font-size: 15px;
+  line-height: var(--lh-snug);
+  color: var(--ink);
+}
+
+.page--cover-mesh .cb-foot {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 56px 52px;
+}
+
+.page--cover-mesh .cb-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.page--cover-mesh .cb-dell-logo { height: 64px; }
+.page--cover-mesh .cb-wif-logo { height: 48px; }
+.page--cover-mesh .cb-sep { font-size: 22px; margin: 0; color: var(--ember-soft); }
+
+.page--cover-mesh .cb-year {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--ink-soft);
+}
+
 /* ============================================================
    PAGE 11 - CLOSING (vision)
    ============================================================ */

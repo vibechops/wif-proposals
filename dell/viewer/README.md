@@ -28,6 +28,12 @@ vercel --prod
 
 Live: `https://wif-proposals.vercel.app/dell` (hub at `/`).
 
+## Cover variants
+
+Default: angular SVG cover (Bold+ styling).
+
+Mesh gradient cover: `?cover=mesh` uses `cover-image-mesh-gradient-01.png` as the full cover sign (image as-is, no crop). Revert with `?cover=bold`.
+
 ## Controls
 
 - **← / →** keys or Prev/Next buttons

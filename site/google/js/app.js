@@ -18,6 +18,7 @@
     timeline: "Program schedule",
     outreach: "Audience &amp; reach",
     budget: "The investment",
+    costs: "The investment, in detail",
     ask: "The decision",
   };
 
@@ -354,6 +355,46 @@
     return page(p, inner, "page--budget");
   }
 
+  /* ---------- Costs (production estimate by category) ---------- */
+  function renderCosts(p) {
+    const d = p.data;
+    const rows = d.rows
+      .map(
+        (r) => `
+        <tr>
+          <td class="costs__cat">
+            <span class="costs__name">${r.cat}</span>
+            <span class="costs__sub">${r.sub}</span>
+          </td>
+          <td class="costs__amt${r.a === "&mdash;" || r.a === "—" ? " costs__amt--none" : ""}">${r.a}</td>
+          <td class="costs__amt costs__amt--b${r.b === "&mdash;" || r.b === "—" ? " costs__amt--none" : ""}">${r.b}</td>
+        </tr>`
+      )
+      .join("");
+    const inner = `
+      ${titleblock(KICKERS.costs, d.heading)}
+      <p class="costs-lead">${d.lead}</p>
+      <table class="costs">
+        <thead>
+          <tr>
+            <th class="costs__cat">Cost category</th>
+            <th class="costs__amt"><span class="costs__tag">A</span></th>
+            <th class="costs__amt costs__amt--b"><span class="costs__tag costs__tag--b">B</span></th>
+          </tr>
+        </thead>
+        <tbody>${rows}</tbody>
+        <tfoot>
+          <tr class="costs__total">
+            <td class="costs__cat">${d.totalLabel}</td>
+            <td class="costs__amt">${d.totalA}</td>
+            <td class="costs__amt costs__amt--b">${d.totalB}</td>
+          </tr>
+        </tfoot>
+      </table>
+      <p class="aside"><span class="aside__bar"></span>${d.note}</p>`;
+    return page(p, inner, "page--costs");
+  }
+
   /* ---------- Ask (closing) ---------- */
   function renderAsk(p) {
     const d = p.data;
@@ -438,6 +479,7 @@
     timeline: renderTimeline,
     outreach: renderOutreach,
     budget: renderBudget,
+    costs: renderCosts,
     ask: renderAsk,
     closing: renderClosing,
   };

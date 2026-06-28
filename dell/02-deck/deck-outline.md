@@ -80,7 +80,7 @@ Three parallel tracks. One Dell partnership. One impact report per sponsored pro
 - Festival tie-up: industry showcase + pitching prep
 - IP stays with the writer; mandatory WIF credit
 
-**Timeline:** Oct 2025 applications through Aug 2026 festival showcase.
+**Timeline:** July 2026 applications through May 2027 festival showcase.
 
 ---
 

@@ -1088,6 +1088,114 @@ thead .cmp__feat {
 }
 
 /* ============================================================
+   COSTS - production estimate by category
+   ============================================================ */
+.costs-lead {
+  font-size: 16px;
+  line-height: var(--lh-snug);
+  color: var(--ink-soft);
+  max-width: 44em;
+  margin-bottom: 26px;
+}
+
+.costs {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 26px;
+}
+
+.costs th {
+  font-size: var(--t-label);
+  font-weight: 700;
+  letter-spacing: var(--tr-label);
+  text-transform: uppercase;
+  color: var(--ember);
+  text-align: left;
+  padding: 0 0 12px;
+  border-bottom: 1px solid var(--hairline-strong);
+}
+
+.costs td {
+  padding: 13px 0;
+  border-bottom: 1px solid var(--hairline);
+  vertical-align: baseline;
+}
+
+.costs__cat { width: 56%; padding-right: 18px; }
+
+.costs__name {
+  display: block;
+  font-size: 15.5px;
+  font-weight: 600;
+  color: var(--plum);
+}
+
+.costs__sub {
+  display: block;
+  margin-top: 3px;
+  font-size: 12.5px;
+  line-height: var(--lh-snug);
+  color: var(--ink-soft);
+}
+
+.costs__amt {
+  width: 22%;
+  text-align: right;
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--plum);
+  white-space: nowrap;
+}
+
+.costs__amt--none { color: var(--ink-faint); opacity: 0.55; }
+
+th.costs__amt { text-align: right; }
+
+.costs__tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink-soft);
+  border: 1px solid var(--hairline-strong);
+}
+
+.costs__total td {
+  border-bottom: none;
+  border-top: 2px solid var(--plum);
+  padding-top: 15px;
+}
+
+.costs__total .costs__cat {
+  font-size: var(--t-label);
+  font-weight: 700;
+  letter-spacing: var(--tr-label);
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.costs__total .costs__amt {
+  font-size: 19px;
+  font-weight: 600;
+  color: var(--ember);
+}
+
+.costs__usd {
+  display: block;
+  margin-top: 2px;
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--ink-soft);
+}
+
+/* ============================================================
    PAGES 7 + 8 - TIMELINE SPINE
    ============================================================ */
 .tl-intro {

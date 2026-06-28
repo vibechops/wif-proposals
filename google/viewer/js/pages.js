@@ -332,6 +332,27 @@ window.PROPOSAL_PAGES = [
   },
   {
     id: 13,
+    title: "Cost summary",
+    template: "costs",
+    data: {
+      heading: "Production cost estimate",
+      lead: "A category-level estimate of the production and other expenses for each option, quoted in INR in addition to the WIF India program fee (Option A $100K, Option B $150K).",
+      rows: [
+        { cat: "Event production &middot; 7 cities", sub: "Venues, stage, AV, lighting, livestream, catering, branding", a: "&#8377;22L", b: "&#8377;22L" },
+        { cat: "Crew &amp; travel", sub: "Film and photo crew, flights, hotels, per diem across cities", a: "&#8377;15L", b: "&#8377;15L" },
+        { cat: "Marketing &amp; content", sub: "Campaign, paid social, post-production, content package, registrations", a: "&#8377;7L", b: "&#8377;7L" },
+        { cat: "Program management &amp; ops", sub: "Core team across 16 weeks, insurance, legal, accounting, contingency", a: "&#8377;16L", b: "&#8377;22L" },
+        { cat: "National script call &amp; Filmathon", sub: "Submission platform, curation, jury, WIF-funded Flow access, mentoring", a: "&mdash;", b: "&#8377;5L" },
+        { cat: "Mumbai awards ceremony", sub: "Venue, production, F&amp;B, host, PR, hospitality, trophies", a: "&mdash;", b: "&#8377;30L" },
+      ],
+      totalLabel: "Estimated production &amp; expenses",
+      totalA: "~&#8377;0.59 Cr<span class=\"costs__usd\">~$63K</span>",
+      totalB: "~&#8377;1.01 Cr<span class=\"costs__usd\">~$107K</span>",
+      note: "Production costs are denominated in INR and will be remitted in INR. USD equivalents above are indicative only (~&#8377;94/$) and may vary with currency fluctuation. Google separately provides the Flow expert, and the Top 3 each receive a Google-provided 1-year Flow subscription. Neither is included above.",
+    },
+  },
+  {
+    id: 14,
     title: "The ask",
     template: "ask",
     data: {
@@ -345,7 +366,7 @@ window.PROPOSAL_PAGES = [
     },
   },
   {
-    id: 14,
+    id: 15,
     title: "The vision",
     template: "closing",
     data: {

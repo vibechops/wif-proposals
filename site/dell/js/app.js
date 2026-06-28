@@ -60,8 +60,25 @@
       </article>`;
   }
 
+  function getCoverStyle() {
+    const param = new URLSearchParams(location.search).get("cover");
+    if (param === "mesh") {
+      try { sessionStorage.setItem("dellCover", "mesh"); } catch (e) { /* ignore */ }
+      return "mesh";
+    }
+    if (param === "bold") {
+      try { sessionStorage.removeItem("dellCover"); } catch (e) { /* ignore */ }
+      return "bold";
+    }
+    try {
+      return sessionStorage.getItem("dellCover") === "mesh" ? "mesh" : "bold";
+    } catch (e) {
+      return "bold";
+    }
+  }
+
   /* ---------- Cover ---------- */
-  function renderCover(p) {
+  function coverContent(p, mod) {
     const d = p.data;
     const blurb =
       d.blurb ||
@@ -69,10 +86,12 @@
     const titleLines = (d.subtitle || "Get More Women More Jobs")
       .replace(/\s+More\s+Jobs/i, "<br>More Jobs")
       .replace(/\s+More\s+/i, "<br>More ");
-    // Angular interlocking wedges, rounded edges. Dark plum ground with an
-    // ember gradient sweep top-right and a silver wedge bottom-left.
-    const art = `
-      <svg class="cb-art" viewBox="0 0 794 1123" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    return `
+      <article class="page page--cover ${mod}">
+        <div class="cb-bg" aria-hidden="true">
+          ${mod === "page--cover-mesh"
+            ? `<img src="assets/cover-image-mesh-gradient-01.png?v=1" alt="" class="cm-sign">`
+            : `<svg class="cb-art" viewBox="0 0 794 1123" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
         <defs>
           <linearGradient id="cbEmber" x1="0.15" y1="1" x2="0.9" y2="0.05">
             <stop offset="0" stop-color="#a8402c"/>
@@ -92,12 +111,8 @@
         <path class="cb-shape-silver"
           d="M-40 1163 L-40 612 Q120 700 250 880 Q360 1030 470 1163 Z"
           fill="url(#cbSilver)"/>
-      </svg>`;
-    return `
-      <article class="page page--cover page--cover-bold">
-        <div class="cb-bg" aria-hidden="true">
-          ${art}
-          <span class="cb-grain"></span>
+      </svg>
+          <span class="cb-grain"></span>`}
         </div>
         <header class="cb-top">
           <span class="cb-eyebrow">${d.eyebrow}</span>
@@ -117,6 +132,11 @@
           <span class="cb-year">${d.date || ""}</span>
         </footer>
       </article>`;
+  }
+
+  function renderCover(p) {
+    const style = getCoverStyle();
+    return coverContent(p, style === "mesh" ? "page--cover-mesh" : "page--cover-bold");
   }
 
   /* ---------- Statement (designed sentence) ---------- */
@@ -176,8 +196,10 @@
         </div>`
       )
       .join("");
+    const lead = d.lead ? `<p class="tl-intro">${d.lead}</p>` : "";
     const inner = `
       ${titleblock(d.kicker || KICKERS.sections, d.heading)}
+      ${lead}
       <div class="creds">${blocks}</div>`;
     return page(p, inner, "page--cred");
   }

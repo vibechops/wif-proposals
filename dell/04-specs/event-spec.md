@@ -9,7 +9,7 @@ One page per program. Answer these with WIF before final deck. Exhibition sectio
 | Program | In scope? | Standalone option |
 |---|---|---|
 | 1. Screenwriters Residency Lab | Yes | $150,000 |
-| 2. Exhibition Program | Yes | $150,000 |
+| 2. Premiere Program | Yes | $150,000 |
 | 3. Internship Program | Yes | $200,000 / year |
 
 ---
@@ -42,12 +42,12 @@ Varun Grover, Juhi Chaturvedi, Smita Singh, Payal Kapadia, Kiran Rao, Bhavani Iy
 
 | Phase | Window |
 |---|---|
-| Call for applications | October 2025 |
-| Shortlist (50) | December 2025 |
-| Treatment phase | Jan-Feb 2026 |
-| Final selection (6) | March 2026 |
-| Writers Lab Part 1 (residential) | May 2026 |
-| Writers Lab Part 2 (festival) | August 2026 |
+| Call for applications | July 2026 |
+| Shortlist (50) | September 2026 |
+| Treatment phase | Oct-Nov 2026 |
+| Final selection (6) | December 2026 |
+| Writers Lab Part 1 (residential) | February 2027 |
+| Writers Lab Part 2 (festival) | May 2027 |
 
 ### Budget (internal)
 
@@ -61,13 +61,13 @@ Varun Grover, Juhi Chaturvedi, Smita Singh, Payal Kapadia, Kiran Rao, Bhavani Iy
 
 ---
 
-## 2. Exhibition Program
+## 2. Premiere Program
 
 **Status: DRAFT assumptions.** Built from Rabia notes. Confirm with Rabia before client send.
 
 ### Overview
 
-WIF India acts as a **distribution channel** for women-centric and women-led films. Partnership with PVR Cinemas for multi-city screenings. Premiere format is awareness-focused, not high-glamour.
+WIF India stages a **high-impact industry premiere** for each women-led film in a curated slate. One premiere per film, six films per year. Industry guests, press, and recognition for filmmakers. Distribution beyond the premiere event is a separate WIF initiative, not in this proposal.
 
 ### Key parameters
 
@@ -75,20 +75,18 @@ WIF India acts as a **distribution channel** for women-centric and women-led fil
 |---|---|
 | Films per year | 6 (curated slate) |
 | Eligibility | Women-centric or women-led films (director, writer, or protagonist) |
-| Distribution partner | PVR Cinemas (in-kind or subsidized screening support) |
-| Screenings per film | 15-20 across PVR locations |
+| Premiere format | High-impact industry premiere; industry guests, press, filmmaker Q&A |
+| Premieres per film | 1 (no additional screenings) |
 | Cities (Year 1) | Mumbai, Delhi, Bangalore, Kolkata, Chennai, Hyderabad |
-| Premiere format | Understated red carpet; filmmaker Q&A; press and social coverage; no heavy production |
-| WIF role | Curation, filmmaker relations, PVR coordination, marketing, premiere production |
-| Dell role | Presenting Partner; logo on all premiere and screening materials |
+| WIF role | Curation, filmmaker relations, premiere production, marketing, PR |
+| Dell role | Presenting Partner; logo on all premiere materials and press |
 
 ### Year 1 timeline
 
 | Phase | Window |
 |---|---|
 | Film slate curation | Q1 |
-| PVR partnership finalized | Q1 |
-| First premiere + screening window | Q2 |
+| Premiere planning (venues, guests, press) | Q1-Q2 |
 | Rolling premieres (6 films) | Q2-Q4 |
 | Year-end impact report | Q4 |
 
@@ -97,20 +95,20 @@ WIF India acts as a **distribution channel** for women-centric and women-led fil
 | Line item | Estimate (INR) |
 |---|---:|
 | Program team (lead + partnerships, 12 months) | 18,00,000 |
-| Premiere events (6 x understated format) | 24,00,000 |
+| Premiere events (6 x high-impact format) | 24,00,000 |
 | Marketing, PR, social | 12,00,000 |
-| PVR coordination / booking fees | 10,00,000 |
+| Premiere production / venue coordination | 10,00,000 |
 | Filmmaker travel / hospitality | 6,00,000 |
 | Legal / rights coordination | 3,00,000 |
 | Contingency (10%) | 7,30,000 |
 | WIF India program fee | 15,00,000 |
 | **Year 1 total (draft)** | **75,30,000 (~₹75L)** |
 
-### Open decisions (Exhibition)
+### Open decisions (Premiere Program)
 
-1. PVR in-kind vs paid screening model
+1. Venue model (cinema partner vs standalone event space)
 2. Number of films Year 1 (6 assumed; could be 4-8)
-3. Screening count per film (15-20 per Rabia notes)
+3. Guest list and press scope per premiere
 4. Subtitled vs original language rollout
 5. Dell rep attendance at premieres
 
@@ -174,7 +172,7 @@ Source: adapted from `../00-intake/Proposal for Kamla Mills Foundation - Interna
 | In-film product placement | Via Sikhya / Raunaq (separate) | Introduction only |
 | Mentors | Optional attendance | Curated roster + advisory board |
 | Venues | No | Lab, premieres, closing ceremony |
-| Distribution | No | PVR partnership, screening program |
+| Distribution | No | Premiere events, filmmaker recognition |
 | Employment | No | Internship placements, stipends |
 | Impact reporting | Receives annual report | Produces M&E, Gender Employment Report |
 
@@ -182,20 +180,20 @@ Source: adapted from `../00-intake/Proposal for Kamla Mills Foundation - Interna
 
 ## 5. Consolidated timeline (Year 1)
 
-| Quarter | Lab | Exhibition | Internship |
+| Quarter | Lab | Premiere | Internship |
 |---|---|---|---|
-| Q1 | Applications open; shortlist | Slate curation; PVR deal | Partner recruitment; intern selection |
-| Q2 | Treatments; final 6 selected | First premieres + screenings | Internships begin |
+| Q1 | Applications open; shortlist | Slate curation; premiere planning | Partner recruitment; intern selection |
+| Q2 | Treatments; final 6 selected | First premieres | Internships begin |
 | Q3 | Residential lab (May) | Rolling premieres | Internships continue |
-| Q4 | Festival showcase (Aug) | Final screenings; impact report | Closing ceremony; Year 1 report |
+| Q4 | Festival showcase (Aug) | Final premieres; impact report | Closing ceremony; Year 1 report |
 
 ---
 
 ## 6. Open decisions (all programs)
 
-1. Which program does Dell sponsor (Lab / Exhibition / Internship)?
+1. Which program does Dell sponsor (Lab / Premiere / Internship)?
 2. Multi-year internship commitment (3 years) vs Year 1 pilot
-3. Exhibition draft assumptions: confirm with Rabia
+3. Premiere Program draft assumptions: confirm with Rabia
 4. In-film branding timeline with Sikhya / Raunaq
 5. EMG / Dell approval process and timeline
 6. Mentor final confirmations for Lab

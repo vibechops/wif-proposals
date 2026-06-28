@@ -1,5 +1,5 @@
 {
-  "buildCommand": "rm -rf site/google site/dell && mkdir -p site/google site/dell && cp -R google/viewer/. site/google/ && cp -R dell/viewer/. site/dell/ && rm -rf site/google/.vercel site/google/.env.local site/dell/.vercel site/dell/.env.local",
+  "buildCommand": "rm -rf site/google site/dell site/partner && mkdir -p site/google site/dell site/partner && cp -R google/viewer/. site/google/ && cp -R dell/viewer/. site/dell/ && cp -R partner/viewer/. site/partner/ && rm -rf site/google/.vercel site/google/.env.local site/dell/.vercel site/dell/.env.local site/partner/.vercel site/partner/.env.local",
   "outputDirectory": "site",
   "framework": null,
   "cleanUrls": true,

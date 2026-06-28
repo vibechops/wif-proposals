@@ -16,3 +16,4 @@ sync_one() {
 
 sync_one google
 sync_one dell
+sync_one partner
