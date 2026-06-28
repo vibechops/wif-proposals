@@ -193,57 +193,57 @@ html.font-instrument {
     var(--paper);
 }
 
-/* Bold+ : subtle ember language carried onto the internal pages.
-   Single light bg is preserved; only a faint corner wash + ember
-   page furniture echoes the cover and closing art. */
+/* Interior pages carry the cover's orb language: a soft gradient bloom rising
+   from the bottom edge, dusted with halftone, so they read as the same poster
+   series rather than a separate report template. Content sits above (z-index 1). */
 .page--accent > * {
   position: relative;
   z-index: 1;
 }
-/* Crisp ember corner wedge, echoing the angular sweep on the cover. */
-.page--accent::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 132px;
-  height: 132px;
-  background: linear-gradient(135deg, #d2755f 0%, var(--ember) 100%);
-  clip-path: polygon(0 0, 0 100%, 100% 100%);
-  pointer-events: none;
-  z-index: 0;
-}
-/* Soft ember wash bleeding up from the wedge. */
+/* Two overlapping orbs rising from the bottom corners, mirroring the cover's
+   intersecting circles. Defined edges (not just a wash) so they clearly read
+   as the same motif; kept low in the empty band so centered text stays clean. */
 .page--accent::before {
   content: "";
   position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 320px;
-  height: 320px;
-  background: radial-gradient(
-    120% 120% at 0% 100%,
-    rgba(198, 84, 60, 0.16) 0%,
-    transparent 60%
-  );
+  inset: 0;
   pointer-events: none;
   z-index: 0;
+  background:
+    radial-gradient(380px 380px at 4% 110%, rgba(255, 107, 74, 0.7) 0%, rgba(224, 64, 160, 0.56) 44%, transparent 70%),
+    radial-gradient(430px 430px at 98% 104%, rgba(94, 207, 192, 0.66) 0%, rgba(155, 140, 255, 0.52) 46%, transparent 70%);
 }
-.page--accent .runner {
-  border-bottom-color: rgba(198, 84, 60, 0.5);
+/* Halftone dots over the orb band, echoing the cover texture. */
+.page--accent::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image: radial-gradient(rgba(28, 21, 36, 0.18) 0.9px, transparent 1px);
+  background-size: 6px 6px;
+  -webkit-mask-image:
+    radial-gradient(380px 380px at 4% 110%, #000 55%, transparent 72%),
+    radial-gradient(430px 430px at 98% 104%, #000 55%, transparent 72%);
+  mask-image:
+    radial-gradient(380px 380px at 4% 110%, #000 55%, transparent 72%),
+    radial-gradient(430px 430px at 98% 104%, #000 55%, transparent 72%);
 }
-.page--accent .runner__idx {
-  color: var(--ember);
-}
+
+/* Gradient page furniture (ties the chrome to the orb palette). */
 .page--accent .runner__rule {
-  background: var(--ember);
+  width: 28px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--orb-coral), var(--orb-magenta));
 }
-.page--accent .folio {
-  border-top-color: rgba(198, 84, 60, 0.5);
+.page--accent .runner__idx,
+.page--accent .folio__no b {
+  background: linear-gradient(120deg, var(--orb-coral), var(--orb-magenta));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
-.page--accent .kicker {
-  color: var(--ember);
-}
+.page--accent .kicker { color: var(--orb-magenta); }
 
 .page-body { flex: 1; min-height: 0; display: flex; flex-direction: column; justify-content: center; }
 
@@ -1409,7 +1409,7 @@ thead .cmp__feat {
 
 .budget-tiers {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 16px;
   margin-bottom: 24px;
 }
@@ -1741,3 +1741,360 @@ thead .cmp__feat {
   color: var(--ink-soft);
 }
 
+/* ============================================================
+   PARTNER V2: orb graphic system + photo layouts
+   ============================================================ */
+
+.page--paper {
+  background:
+    radial-gradient(90% 60% at 100% 0%, rgba(255, 107, 74, 0.06), transparent 55%),
+    radial-gradient(70% 50% at 0% 100%, rgba(94, 207, 192, 0.07), transparent 50%),
+    var(--paper);
+}
+
+.page--accent > .runner .runner__idx,
+.page--accent > .folio .folio__no b { color: var(--orb-magenta); }
+.page--accent > .runner .runner__rule { background: var(--orb-coral); }
+
+/* Cover + closing (light orb) */
+.page--cover-orb,
+.page--closing-orb {
+  padding: 0;
+  overflow: hidden;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.page--cover-orb .orb-bg,
+.page--closing-orb .orb-bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.page--cover-orb .orb-art,
+.page--closing-orb .orb-art {
+  width: 100%;
+  height: 100%;
+}
+
+.page--cover-orb .orb-top,
+.page--closing-orb .orb-top {
+  position: absolute;
+  z-index: 2;
+  top: 52px;
+  left: var(--pad-x);
+  right: var(--pad-x);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.page--cover-orb .orb-eyebrow,
+.page--closing-orb .orb-eyebrow {
+  font-size: var(--t-kicker);
+  font-weight: 600;
+  letter-spacing: var(--tr-kicker);
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.page--cover-orb .orb-tag {
+  font-size: var(--t-caption);
+  color: var(--ink-faint);
+}
+
+.page--cover-orb .orb-title {
+  position: absolute;
+  z-index: 2;
+  top: 128px;
+  left: var(--pad-x);
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 78px;
+  font-weight: 500;
+  line-height: 0.94;
+  letter-spacing: var(--tr-display);
+  color: var(--ink);
+  max-width: 420px;
+}
+
+.page--cover-orb .orb-blurb {
+  position: absolute;
+  z-index: 2;
+  left: var(--pad-x);
+  bottom: 168px;
+  max-width: 340px;
+  margin: 0;
+  font-size: 15.5px;
+  line-height: var(--lh-body);
+  color: var(--ink-soft);
+}
+
+.page--cover-orb .orb-foot {
+  position: absolute;
+  z-index: 2;
+  left: var(--pad-x);
+  right: var(--pad-x);
+  bottom: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page--cover-orb .orb-wif-logo { height: 44px; }
+
+.page--cover-orb .orb-year {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--ink-faint);
+}
+
+.page--closing-orb .orb-hero {
+  position: absolute;
+  z-index: 2;
+  left: var(--pad-x);
+  right: var(--pad-x);
+  top: 50%;
+  transform: translateY(-54%);
+}
+
+.page--closing-orb .orb-statement {
+  font-family: var(--font-display);
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 1.12;
+  letter-spacing: var(--tr-tight);
+  color: var(--ink);
+  margin-bottom: 28px;
+  max-width: 560px;
+}
+
+.page--closing-orb .orb-statement em {
+  font-style: italic;
+  color: var(--orb-magenta);
+}
+
+.page--closing-orb .orb-cta {
+  font-size: 15px;
+  color: var(--ink-soft);
+  margin-bottom: 32px;
+}
+
+.page--closing-orb .orb-socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+}
+
+.page--closing-orb .orb-social {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 14px;
+  border: 1px solid var(--hairline-strong);
+  border-radius: 999px;
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--plum);
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.45);
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.page--closing-orb .orb-social:hover {
+  border-color: var(--orb-magenta);
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.page--closing-orb .orb-brand {
+  position: absolute;
+  z-index: 2;
+  right: var(--pad-x);
+  bottom: 52px;
+  font-family: var(--font-display);
+  font-size: 14px;
+  color: var(--ink-faint);
+}
+
+/* Split photo layout (pillars + story pages).
+   Base .page-body centers the [titleblock + split] group vertically, so the
+   block must keep its natural height (no flex:1) to stay balanced on the page. */
+.split {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 40px;
+  align-items: center;
+}
+
+.split--left { grid-template-columns: 300px 1fr; }
+.split--left .split__fig { order: -1; }
+
+.split__copy { min-width: 0; max-width: 30em; }
+
+.split__p {
+  font-size: 16.5px;
+  line-height: var(--lh-body);
+  color: var(--ink-soft);
+  margin-bottom: 16px;
+}
+
+.split__p:first-of-type {
+  font-size: 19px;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.split__p:last-of-type { margin-bottom: 0; }
+
+.split__list {
+  list-style: none;
+  margin-top: 18px;
+}
+
+.split__list li {
+  position: relative;
+  padding-left: 18px;
+  font-size: 15px;
+  line-height: var(--lh-snug);
+  color: var(--ink-soft);
+  margin-bottom: 11px;
+}
+
+.split__list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--orb-coral), var(--orb-magenta));
+}
+
+.split__foot {
+  display: inline-block;
+  margin-top: 22px;
+  padding-top: 16px;
+  border-top: 2px solid;
+  border-image: linear-gradient(90deg, var(--orb-coral), var(--orb-magenta)) 1;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--plum);
+}
+
+.split__fig {
+  margin: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 26px 60px -22px rgba(224, 64, 160, 0.4);
+}
+
+.split__fig img {
+  display: block;
+  width: 100%;
+  height: 460px;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.split__fig--tall img { height: 540px; }
+
+/* Team grid */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 8px;
+}
+
+.team-card__photo {
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 12px;
+  aspect-ratio: 4 / 5;
+  box-shadow: 0 16px 34px -16px rgba(224, 64, 160, 0.34);
+}
+
+.team-card__photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 18%;
+}
+
+.team-card__name {
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--ink);
+  margin-bottom: 2px;
+}
+
+.team-card__role {
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--orb-magenta);
+  margin-bottom: 8px;
+}
+
+.team-card__bio {
+  font-size: 13px;
+  line-height: var(--lh-snug);
+  color: var(--ink-soft);
+}
+
+.team-board {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--hairline);
+}
+
+.team-board__label {
+  font-size: var(--t-kicker);
+  font-weight: 600;
+  letter-spacing: var(--tr-kicker);
+  text-transform: uppercase;
+  color: var(--plum);
+  margin-bottom: 8px;
+}
+
+.team-board__text {
+  font-size: 14px;
+  line-height: var(--lh-snug);
+  color: var(--ink-soft);
+}
+
+.team-board__strip {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.board-chip { margin: 0; }
+
+.board-chip img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 50%;
+  box-shadow: 0 8px 18px -8px rgba(28, 21, 36, 0.3);
+}
+
+.board-chip figcaption {
+  margin-top: 7px;
+  font-size: 10px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--ink-faint);
+}
+
+.ask__no { color: var(--orb-coral); }

@@ -1,4 +1,4 @@
-# Partner with Us — WIF India funding prospectus
+# Partner with Us: WIF India funding prospectus
 
 Org-level partnership document (not a client-specific proposal).
 
@@ -19,16 +19,16 @@ Mission-aligned funders and corporate partners evaluating WIF India as an instit
 
 ## Four pillars
 
-1. **Exposure** — International delegations (Cannes, TIFF, Sundance, Berlin)
-2. **Education** — Workshops, masterclasses, fellowship, labs
-3. **Employment** — Internships and seed grants
-4. **Exhibition** — Travelling festival, conclave, WIF House
+1. **Exposure**: International delegations (Cannes, TIFF, Sundance, Berlin)
+2. **Education**: Workshops, masterclasses, fellowship, labs
+3. **Employment**: Internships and seed grants
+4. **Exhibition**: Travelling festival, conclave, WIF House
 
 ## Partnership tiers (from charter)
 
 | Tier | Range |
 |---|---|
-| Founding Partner | $250K+ |
+| Founding Partner | $500K+ |
 | Program Partner | $100K–$250K |
 | Supporting Partner | $25K–$100K |
 | Community Partner | $10K–$25K |

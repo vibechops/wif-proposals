@@ -1,33 +1,38 @@
 :root {
-  /* ===== Palette: warm editorial film publication ===== */
-  /* Paper + ink */
-  --paper: #f3ecdf;          /* warm ivory page */
-  --paper-2: #efe7d8;        /* slightly deeper panel */
-  --ink: #1f1a24;            /* near-black, warm */
-  --ink-soft: #4a4255;       /* secondary text */
-  --ink-faint: #8a8194;      /* captions / meta */
+  /* ===== Palette: warm minimal + orb gradients (reference) ===== */
+  --paper: #ebe6df;
+  --paper-2: #e3ddd4;
+  --ink: #1c1524;
+  --ink-soft: #4a4255;
+  --ink-faint: #8a8194;
 
-  /* Brand aubergine */
-  --plum: #3a2858;           /* primary brand purple */
-  --plum-deep: #20143a;      /* cover ground */
+  --plum: #3a2858;
+  --plum-deep: #1c1524;
   --plum-mid: #2c1d4d;
-  --plum-tint: rgba(58, 40, 88, 0.08);
-  --plum-tint-2: rgba(58, 40, 88, 0.14);
+  --plum-tint: rgba(58, 40, 88, 0.07);
+  --plum-tint-2: rgba(58, 40, 88, 0.12);
 
-  /* Ember accent (single accent, used sparingly) */
-  --ember: #c6543c;
-  --ember-soft: #d2755f;
-  --ember-tint: rgba(198, 84, 60, 0.10);
+  /* Orb accents */
+  --orb-coral: #ff6b4a;
+  --orb-magenta: #e040a0;
+  --orb-teal: #5ecfc0;
+  --orb-lavender: #9b8cff;
+  --orb-orange: #ff8c42;
 
-  /* On dark */
-  --on-dark: #f6efe2;
-  --on-dark-soft: rgba(246, 239, 226, 0.66);
-  --on-dark-faint: rgba(246, 239, 226, 0.34);
-  --hairline-dark: rgba(246, 239, 226, 0.22);
+  /* Single accent (kickers, folio, rules). Mapped to the orb coral-rose so
+     the many existing var(--ember) references stay on-brand. */
+  --ember: #d9466e;
+  --ember-soft: #ef8a72;
+  --ember-tint: rgba(217, 70, 110, 0.10);
 
-  /* Hairlines on paper */
-  --hairline: rgba(31, 26, 36, 0.14);
-  --hairline-strong: rgba(31, 26, 36, 0.30);
+  --hairline: rgba(28, 21, 36, 0.12);
+  --hairline-strong: rgba(28, 21, 36, 0.28);
+
+  /* On dark (cover/closing) */
+  --on-dark: #faf7f2;
+  --on-dark-soft: rgba(250, 247, 242, 0.72);
+  --on-dark-faint: rgba(250, 247, 242, 0.38);
+  --hairline-dark: rgba(250, 247, 242, 0.18);
 
   /* ===== Type ===== */
   --font-display: "Fraunces", Georgia, "Times New Roman", serif;
@@ -59,17 +64,15 @@
   --tr-tight: -0.02em;
   --tr-display: -0.03em;
 
-  /* ===== Space scale ===== */
-  --pad-x: 84px;
-  --pad-top: 64px;
-  --pad-bottom: 56px;
+  --pad-x: 72px;
+  --pad-top: 56px;
+  --pad-bottom: 48px;
 
-  /* ===== Chrome (viewer shell) ===== */
-  --chrome-bg: #15101d;
-  --chrome-panel: #1b1527;
-  --chrome-text: #efe7d8;
+  --chrome-bg: #141018;
+  --chrome-panel: #1a1520;
+  --chrome-text: #f5f0e8;
   --chrome-muted: #9a8fb0;
-  --chrome-line: rgba(246, 239, 226, 0.10);
+  --chrome-line: rgba(245, 240, 232, 0.1);
 
-  --page-shadow: 0 40px 100px -20px rgba(15, 8, 30, 0.55);
+  --page-shadow: 0 40px 100px -20px rgba(20, 12, 30, 0.45);
 }

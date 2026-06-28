@@ -21,6 +21,8 @@
     roles: "Division of work",
     timeline: "Program schedule",
     budget: "The investment",
+    split: "The story",
+    team: "The people",
     ask: "The decision",
   };
 
@@ -63,80 +65,52 @@
       </article>`;
   }
 
-  function getCoverStyle() {
-    const param = new URLSearchParams(location.search).get("cover");
-    if (param === "mesh") {
-      try { sessionStorage.setItem("partnerCover", "mesh"); } catch (e) { /* ignore */ }
-      return "mesh";
-    }
-    if (param === "bold") {
-      try { sessionStorage.removeItem("partnerCover"); } catch (e) { /* ignore */ }
-      return "bold";
-    }
-    try {
-      return sessionStorage.getItem("partnerCover") === "mesh" ? "mesh" : "bold";
-    } catch (e) {
-      return "bold";
-    }
+  function orbArt(suffix, flip) {
+    const y1 = flip ? 680 : 420;
+    const y2 = flip ? 820 : 580;
+    return `
+      <svg class="orb-art" viewBox="0 0 794 1123" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <defs>
+          <linearGradient id="orbA${suffix}" x1="0" y1="1" x2="1" y2="0">
+            <stop offset="0" stop-color="#ff6b4a"/>
+            <stop offset="0.45" stop-color="#e040a0"/>
+            <stop offset="1" stop-color="#ff8c42"/>
+          </linearGradient>
+          <linearGradient id="orbB${suffix}" x1="1" y1="1" x2="0" y2="0">
+            <stop offset="0" stop-color="#5ecfc0"/>
+            <stop offset="0.45" stop-color="#9b8cff"/>
+            <stop offset="1" stop-color="#ffc8a8"/>
+          </linearGradient>
+          <pattern id="halftone${suffix}" width="5" height="5" patternUnits="userSpaceOnUse">
+            <circle cx="2.5" cy="2.5" r="0.85" fill="#1c1524" opacity="0.14"/>
+          </pattern>
+        </defs>
+        <rect width="794" height="1123" fill="#ebe6df"/>
+        <circle cx="520" cy="${y1}" r="290" fill="url(#orbA${suffix})" opacity="0.88"/>
+        <circle cx="470" cy="${y2}" r="265" fill="url(#orbB${suffix})" opacity="0.82"/>
+        <circle cx="495" cy="${y1 + 80}" r="275" fill="url(#halftone${suffix})" opacity="0.5"/>
+      </svg>`;
   }
 
-  /* ---------- Cover ---------- */
-  function coverContent(p, mod) {
+  /* ---------- Cover (orb) ---------- */
+  function renderCover(p) {
     const d = p.data;
-    const blurb =
-      d.blurb ||
-      "Women in Film India exists to enable, upskill, and empower women across education, employment, and global visibility.";
     const titleLines = (d.subtitle || "Partner with Us")
       .replace(/\s+with\s+Us/i, "<br>with Us");
     return `
-      <article class="page page--cover ${mod}">
-        <div class="cb-bg" aria-hidden="true">
-          ${mod === "page--cover-mesh"
-            ? `<img src="assets/cover-image-mesh-gradient-01.png?v=1" alt="" class="cm-sign">`
-            : `<svg class="cb-art" viewBox="0 0 794 1123" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
-        <defs>
-          <linearGradient id="cbEmber" x1="0.15" y1="1" x2="0.9" y2="0.05">
-            <stop offset="0" stop-color="#a8402c"/>
-            <stop offset="0.42" stop-color="#c6543c"/>
-            <stop offset="0.72" stop-color="#d2755f"/>
-            <stop offset="1" stop-color="#e7a986"/>
-          </linearGradient>
-          <linearGradient id="cbSilver" x1="0" y1="1" x2="1" y2="0.2">
-            <stop offset="0" stop-color="#d9d1c4"/>
-            <stop offset="1" stop-color="#efe7d8"/>
-          </linearGradient>
-        </defs>
-        <rect width="794" height="1123" fill="#20143a"/>
-        <path class="cb-shape-ember"
-          d="M362 -40 L834 -40 L834 812 Q700 742 566 506 Q452 306 372 96 Q346 28 362 -40 Z"
-          fill="url(#cbEmber)"/>
-        <path class="cb-shape-silver"
-          d="M-40 1163 L-40 612 Q120 700 250 880 Q360 1030 470 1163 Z"
-          fill="url(#cbSilver)"/>
-      </svg>
-          <span class="cb-grain"></span>`}
-        </div>
-        <header class="cb-top">
-          <span class="cb-eyebrow">${d.eyebrow}</span>
-          <span class="cb-tag">${d.meta || ""}</span>
+      <article class="page page--cover-orb">
+        <div class="orb-bg" aria-hidden="true">${orbArt("c", false)}</div>
+        <header class="orb-top">
+          <span class="orb-eyebrow">${d.eyebrow}</span>
+          <span class="orb-tag">${d.meta || ""}</span>
         </header>
-        <h1 class="cb-title">${titleLines}</h1>
-        <div class="cb-blurb-wrap">
-          <span class="cb-blurb-rule" aria-hidden="true"></span>
-          <p class="cb-blurb">${blurb}</p>
-        </div>
-        <footer class="cb-foot">
-          <div class="cb-brand cb-brand--solo">
-            <img src="assets/wif-logo.png?v=2" alt="WIF India" class="cover-wif-logo cb-wif-logo">
-          </div>
-          <span class="cb-year">${d.date || ""}</span>
+        <h1 class="orb-title">${titleLines}</h1>
+        <p class="orb-blurb">${d.blurb || ""}</p>
+        <footer class="orb-foot">
+          <img src="assets/wif-logo.png?v=2" alt="WIF India" class="orb-wif-logo">
+          <span class="orb-year">${d.date || ""}</span>
         </footer>
       </article>`;
-  }
-
-  function renderCover(p) {
-    const style = getCoverStyle();
-    return coverContent(p, style === "mesh" ? "page--cover-mesh" : "page--cover-bold");
   }
 
   /* ---------- Statement (designed sentence) ---------- */
@@ -357,7 +331,7 @@
         <ul class="budget__covers">${covers}</ul>
         <p class="aside"><span class="aside__bar"></span>${d.note}</p>
       </div>`;
-    return page(p, inner, "page--budget");
+    return page(p, inner, "page--budget page--accent");
   }
 
   /* ---------- Ask (closing) ---------- */
@@ -401,57 +375,88 @@
     return page(p, inner, "page--advisory");
   }
 
-  /* ---------- Closing (vision) ---------- */
+  /* ---------- Split + photo ---------- */
+  function renderSplit(p) {
+    const d = p.data;
+    const paras = (d.paragraphs || [])
+      .map((x) => `<p class="split__p">${x}</p>`)
+      .join("");
+    const items = d.items
+      ? `<ul class="split__list">${d.items.map((x) => `<li>${x}</li>`).join("")}</ul>`
+      : "";
+    const foot = d.footnote ? `<p class="split__foot">${d.footnote}</p>` : "";
+    const pos = d.imagePosition === "left" ? "split--left" : "";
+    const tall = d.imageTall ? " split__fig--tall" : "";
+    const inner = `
+      ${titleblock(d.kicker || KICKERS.split, d.heading)}
+      <div class="split ${pos}">
+        <div class="split__copy">${paras}${items}${foot}</div>
+        <figure class="split__fig${tall}">
+          <img src="assets/charter/${d.image}" alt="${d.imageAlt || ""}" loading="lazy">
+        </figure>
+      </div>`;
+    return page(p, inner, "page--split page--accent");
+  }
+
+  /* ---------- Team ---------- */
+  function renderTeam(p) {
+    const d = p.data;
+    const cards = d.members
+      .map(
+        (m) => `
+        <article class="team-card">
+          <div class="team-card__photo">
+            <img src="assets/charter/${m.photo}" alt="${m.name}" loading="lazy">
+          </div>
+          <p class="team-card__name">${m.name}</p>
+          <p class="team-card__role">${m.role}</p>
+          <p class="team-card__bio">${m.bio}</p>
+        </article>`
+      )
+      .join("");
+    const strip = (d.boardPhotos || [])
+      .map(
+        (m) =>
+          `<figure class="board-chip"><img src="assets/advisors/${m.photo}.jpg" alt="${m.name}" loading="lazy"><figcaption>${m.name}</figcaption></figure>`
+      )
+      .join("");
+    const board = d.board
+      ? `
+      <div class="team-board">
+        <p class="team-board__label">${d.board.label}</p>
+        <p class="team-board__text">${d.board.text}</p>
+        ${strip ? `<div class="team-board__strip">${strip}</div>` : ""}
+      </div>`
+      : "";
+    const inner = `
+      ${titleblock(d.kicker || KICKERS.team, d.heading)}
+      <div class="team-grid">${cards}</div>
+      ${board}`;
+    return page(p, inner, "page--team page--accent");
+  }
+
+  /* ---------- Closing (orb + social) ---------- */
   function renderClosing(p) {
     const d = p.data;
     const lead = d.lead.map((s) => (s.em ? `<em>${s.t}</em>` : s.t)).join("");
-    const stats = (d.stats || [])
+    const socials = (d.socials || [])
       .map(
-        (s) => `
-        <div class="cb2-stat">
-          <span class="cb2-stat__value">${s.value}</span>
-          <span class="cb2-stat__label">${s.label}</span>
-        </div>`
+        (s) =>
+          `<a href="${s.url}" class="orb-social" target="_blank" rel="noopener noreferrer">${s.label}</a>`
       )
       .join("");
-    const statsBlock = stats ? `<footer class="cb2-foot"><div class="cb2-stats">${stats}</div></footer>` : "";
-    // Bookends the bold cover: same ember sweep top-right, silver accent
-    // tucked into the bottom-right corner so the stats stay on dark.
-    const art = `
-      <svg class="cb-art" viewBox="0 0 794 1123" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
-        <defs>
-          <linearGradient id="cb2Ember" x1="0.15" y1="1" x2="0.9" y2="0.05">
-            <stop offset="0" stop-color="#a8402c"/>
-            <stop offset="0.42" stop-color="#c6543c"/>
-            <stop offset="0.72" stop-color="#d2755f"/>
-            <stop offset="1" stop-color="#e7a986"/>
-          </linearGradient>
-          <linearGradient id="cb2Silver" x1="1" y1="1" x2="0" y2="0.2">
-            <stop offset="0" stop-color="#d9d1c4"/>
-            <stop offset="1" stop-color="#efe7d8"/>
-          </linearGradient>
-        </defs>
-        <rect width="794" height="1123" fill="#20143a"/>
-        <path d="M402 -40 L834 -40 L834 612 Q700 552 566 332 Q452 152 392 12 Q372 -16 402 -40 Z"
-          fill="url(#cb2Ember)"/>
-        <path d="M834 1163 L834 836 Q752 892 690 1006 Q650 1080 614 1163 Z"
-          fill="url(#cb2Silver)"/>
-      </svg>`;
     return `
-      <article class="page page--closing page--closing-bold">
-        <div class="cb-bg" aria-hidden="true">
-          ${art}
-          <span class="cb-grain"></span>
-        </div>
-        <header class="cb2-top">
-          <span class="cb2-eyebrow">${d.eyebrow}</span>
-          <span class="cb2-brand">${d.brand}</span>
+      <article class="page page--closing-orb">
+        <div class="orb-bg" aria-hidden="true">${orbArt("x", true)}</div>
+        <header class="orb-top">
+          <span class="orb-eyebrow">${d.eyebrow}</span>
         </header>
-        <div class="cb2-hero">
-          <p class="cb2-statement">${lead}</p>
-          <p class="cb2-cta">${d.close}</p>
+        <div class="orb-hero">
+          <p class="orb-statement">${lead}</p>
+          <p class="orb-cta">${d.close}</p>
+          <div class="orb-socials">${socials}</div>
         </div>
-        ${statsBlock}
+        <span class="orb-brand">${d.brand || ""}</span>
       </article>`;
   }
 
@@ -460,6 +465,8 @@
     statement: renderStatement,
     bullets: renderBullets,
     sections: renderSections,
+    split: renderSplit,
+    team: renderTeam,
     advisory: renderAdvisory,
     comparison: renderComparison,
     roles: renderRoles,

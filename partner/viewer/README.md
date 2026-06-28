@@ -1,8 +1,20 @@
-# Partner with Us — WIF India prospectus viewer
+# Partner with Us: WIF India prospectus viewer
 
-Static A4 HTML page viewer for the org-level funding & partnership prospectus (condensed from `WIF_Charter 2026_Updated.pdf`).
+Static A4 HTML page viewer for the org-level funding & partnership prospectus.
+
+**10 pages** with charter PDF photos, orb graphic design, and WIF social handles.
 
 Content source: `partner/02-deck/a4-pdf-outline.md`. Page data lives in `js/pages.js`.
+
+## Charter photos
+
+Re-extract from the PDF anytime:
+
+```bash
+./scripts/extract-charter-images.sh
+```
+
+Images land in `assets/charter/` (27 files from the charter PDF).
 
 ## Local preview
 
