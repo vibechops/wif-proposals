@@ -70,8 +70,8 @@ window.PROPOSAL_PAGES = [
     data: {
       kicker: "Pillar 03",
       heading: "Employment",
-      image: "img-003.jpg",
-      imageAlt: "Industry masterclass for women in film",
+      image: "img-004.jpg",
+      imageAlt: "WIF India employment workshop group",
       paragraphs: [
         "What if your support paid someone's first stipend on a film set? Or got a short off the ground?",
         "We place early-career women in production houses and fund scripts and shorts, one woman, one job, one project at a time.",
@@ -103,8 +103,8 @@ window.PROPOSAL_PAGES = [
     data: {
       kicker: "The bigger picture",
       heading: "Why partner with us",
-      image: "img-004.jpg",
-      imageAlt: "WIF India community workshop",
+      imageSrc: "assets/why-partner.png",
+      imageAlt: "WIF India partners and community at an industry gathering",
       paragraphs: [
         "This isn't charity. More women in film means better stories, bigger audiences, and a stronger industry for everyone.",
         "Gender-diverse leadership drives stronger outcomes. Women-led stories reach wider audiences. And film is one of India's greatest cultural exports: a more inclusive industry strengthens India's soft power globally.",

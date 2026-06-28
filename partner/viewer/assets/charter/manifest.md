@@ -12,22 +12,22 @@ Extracted from `partner/WIF_Charter 2026_Updated.pdf` via `pdfimages -all`.
 | img-003.jpg | 4 | Education: Soho House masterclass panel |
 | img-004.jpg | 5 | Employment: large group workshop photo |
 
-## Our Team (PDF page 13, top to bottom)
+## Our Team (PDF page 13)
 
-| File | Person | Notes |
-|------|--------|-------|
-| img-006.jpg | Rabia Chopra | Purple WIF sweatshirt portrait |
-| img-007.jpg | Shefali Saxena | White top, wavy hair |
-| img-005.jpg | Trisha Sinha | Floral dress, glasses |
+| File | Person |
+|------|--------|
+| img-006.jpg | Rabia Chopra (purple WIF sweatshirt) |
+| img-007.jpg | Shefali Saxena |
+| img-005.jpg | Trisha Sinha |
 
-`img-005` is also embedded on page 13 as a tall left-column crop; the square crop above Trisha's bio is the correct headshot.
+Team page uses cropped `team/*.webp` exports, not these raw files.
 
 ## Advisory Board (PDF pages 14–15)
 
 | File | Person |
 |------|--------|
 | img-008.jpg | Anupama Chopra |
-| img-009.jpg | Aparna Purohit (tall studio portrait) |
+| img-009.jpg | Aparna Purohit |
 | img-010.jpg | Ekta Kapoor |
 | img-011.jpg | Faye D'Souza |
 | img-012.png | Gayatri Yadav |
@@ -35,7 +35,7 @@ Extracted from `partner/WIF_Charter 2026_Updated.pdf` via `pdfimages -all`.
 | img-014.jpg | Guneet Monga Kapoor |
 | img-015.jpg | Jyoti Deshpande |
 | img-016.jpg | Kanika Dhillon |
-| img-017.jpg | Karan Johar (formal tux) |
+| img-017.jpg | Karan Johar |
 | img-018.jpg | Siddharth Roy Kapur |
 | img-019.png | Miriam Joseph |
 | img-020.jpg | Nikhil Advani |
@@ -44,22 +44,23 @@ Extracted from `partner/WIF_Charter 2026_Updated.pdf` via `pdfimages -all`.
 | img-023.jpg | Varun Grover |
 | img-024.jpg | Vani Tripathi |
 
-Advisory headshots in the deck viewer use `assets/advisors/` (higher quality, named files).
-
-## Closing
-
-| File | PDF page | Content |
-|------|----------|---------|
-| img-025.png, img-026.png | 16 | Logo variants |
+Advisory strip on team page uses `assets/advisors/` (named headshots).
 
 ## Viewer page assignments (`pages.js`)
 
-| Page | File | Why |
-|------|------|-----|
-| Why we exist | img-006 | WIF-branded community portrait (PDF p2 has no photo) |
-| Exposure | img-002 | PDF p3 |
-| Education | img-003 | PDF p4 |
-| Employment | img-003 | Masterclass / training pipeline |
-| Exhibition | img-014 | No photo on PDF p6; Guneet Monga, Oscar-winning producer |
-| Why partner | img-004 | Large workshop group; program scale, not team/advisor |
-| Team | `team/rabia-chopra.jpg` etc. | Face crops from img-006, img-007, img-005 |
+Each charter photo used **at most once** on split pages.
+
+| Page | Asset | Source |
+|------|-------|--------|
+| Why we exist | img-006.jpg | WIF-branded community (PDF p13) |
+| Exposure | img-002.jpg | PDF p3 |
+| Education | img-003.jpg | PDF p4 |
+| Employment | img-004.jpg | PDF p5 |
+| Exhibition | img-014.jpg | PDF p6 has no photo; Oscar-winning producer |
+| Why partner | why-partner.png | Custom industry gathering photo |
+| Team | team/*.webp | Cropped headshots |
+| Board strip | assets/advisors/*.jpg | Named advisory headshots |
+
+## Unused on split pages
+
+img-005, img-007, img-008–img-013, img-015–img-024, img-025/026 (logos). Reserved for future use or reference only.

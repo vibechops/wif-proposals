@@ -1929,7 +1929,26 @@ thead .cmp__feat {
   align-items: center;
 }
 
-.split--left { grid-template-columns: 300px 1fr; }
+.split--text {
+  grid-template-columns: 1fr;
+  max-width: 36em;
+}
+
+.split__fig--decor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  box-shadow: none;
+}
+
+.split__fig--decor img {
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+  max-height: 420px;
+}
+
 .split--left .split__fig { order: -1; }
 
 .split__copy { min-width: 0; max-width: 30em; }

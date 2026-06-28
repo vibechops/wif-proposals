@@ -387,13 +387,18 @@
     const foot = d.footnote ? `<p class="split__foot">${d.footnote}</p>` : "";
     const pos = d.imagePosition === "left" ? "split--left" : "";
     const tall = d.imageTall ? " split__fig--tall" : "";
+    const src = d.imageSrc || (d.image ? `assets/charter/${d.image}` : "");
+    const fig = src
+      ? `<figure class="split__fig${tall}${d.imageDecor ? " split__fig--decor" : ""}">
+          <img src="${src}" alt="${d.imageAlt || ""}" loading="lazy">
+        </figure>`
+      : "";
+    const textOnly = src ? "" : " split--text";
     const inner = `
       ${titleblock(d.kicker || KICKERS.split, d.heading)}
-      <div class="split ${pos}">
+      <div class="split ${pos}${textOnly}">
         <div class="split__copy">${paras}${items}${foot}</div>
-        <figure class="split__fig${tall}">
-          <img src="assets/charter/${d.image}" alt="${d.imageAlt || ""}" loading="lazy">
-        </figure>
+        ${fig}
       </div>`;
     return page(p, inner, "page--split page--accent");
   }
